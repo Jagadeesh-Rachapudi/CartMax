@@ -1,0 +1,101 @@
+.HedderBody {
+  height: 100vh;
+  background-color: #f8f9fa;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FHedder-image%20(2)-cropped.png?alt=media&token=a6b246bb-5405-4a5e-af3e-91995e578378");
+  height: 100vh;
+  background-size: cover;
+  vertical-align: middle;
+}
+.HedderContent {
+  margin-top: 13rem;
+  margin-left: 10rem;
+}
+.HedderNotice {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 2rem;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #d9121f;
+}
+.HedderTextContainer {
+  display: flex;
+  flex-direction: row;
+}
+.HedderMainText {
+  width: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 85px;
+  color: #040404;
+}
+.HedderMainTextpart1 {
+  width: 20%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 85px;
+  color: #040404;
+}
+.HedderMainTextnext {
+  width: auto;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 85px;
+  color: #040404;
+}
+.HedderSmallText {
+  padding: 1rem 0rem 1rem 0rem;
+  width: 60%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #717171;
+}
+.HedderButtonsContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  row-gap: 2rem;
+}
+.HedderRedButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.918px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+.b2container {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.Hedderb2 {
+  padding-bottom: 0.5rem;
+  padding-left: 0.6rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+}
+.HedderbuttonText {
+  padding: 0.5rem 0 0 0.5rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #212121;
+}
