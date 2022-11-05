@@ -1,0 +1,54 @@
+.BehindBody {
+  margin-top: 5rem;
+  height: 100vh;
+  background-color: white;
+}
+.smallinto {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #d9121f;
+}
+.smallHedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  letter-spacing: -0.02em;
+  color: #010101;
+}
+.smallbox {
+  margin-top: 2rem;
+  height: 17rem;
+  width: 17rem;
+  background: #f3f3f1;
+  margin-bottom: 2rem;
+}
+.smalldesc {
+  width: 70%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #5d5d5d;
+  margin-bottom: 2rem;
+}
+.BigLinks {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  row-gap: 5rem;
+}
+
+.BigLink {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}

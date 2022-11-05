@@ -1,0 +1,36 @@
+.addsBody {
+  height: 49vh;
+  background-size: contain;
+  vertical-align: middle;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FAddsBG.png?alt=media&token=5362915b-e2e0-4890-8db6-bf4a43a1b661");
+}
+.adsIntro {
+  padding-top: 5rem;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #d9121f;
+}
+.addsHedding {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: wrap;
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.ads > img {
+  max-width: 75rem;
+  padding-left: 15rem;
+  padding-top: 5rem;
+}
