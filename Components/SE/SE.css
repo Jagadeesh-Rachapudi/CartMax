@@ -1,0 +1,104 @@
+.SE-Body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SE-Continer1 {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-left: 5rem;
+  margin-right: 0;
+}
+.SE-Continer2 {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 75%;
+  margin-right: 5%;
+}
+.SE-Image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 60rem;
+  max-height: 50rem;
+}
+.SE-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  color: #0f0f0f;
+}
+.SE-Link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-decoration-line: underline;
+  color: #454545;
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1100px) {
+  .SE-Body {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+  .SE-Continer1 {
+    align-items: center;
+  }
+  .SE-Image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 30rem;
+    max-height: 25rem;
+  }
+  .SE-Hedding {
+    white-space: nowrap;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    color: #0f0f0f;
+  }
+  .SE-Continer2 {
+    /* margin-left: 0; */
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 0;
+  }
+}
+
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 600px) {
+  .SE-Continer1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SE-Continer2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SE-Hedding {
+    white-space: unset;
+    width: 90%;
+    margin-left: 0rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    color: #0f0f0f;
+  }
+}

@@ -1,0 +1,225 @@
+.MS-images {
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.Monthly-Sales_body {
+  background: #e8ecef;
+}
+.Monthly-Sales_Intro {
+  margin-left: 5rem;
+  padding-top: 5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #d9121f;
+}
+.Title-buttons-Continer {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.MS-Hedding {
+  white-space: nowrap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.Title-buttons-Continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem;
+}
+.Button-Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  margin-bottom: 0rem;
+}
+
+.Button-text1 {
+  white-space: nowrap;
+  float: right;
+  margin-right: 2rem;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Jost";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #4c4c4c;
+}
+.Button-text2 {
+  white-space: nowrap;
+  float: left;
+  margin-right: 2rem;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Jost";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #4c4c4c;
+}
+.MS-image > img {
+  position: relative;
+}
+.MS-Sale-Button {
+  z-index: +1;
+  border: none;
+  background-color: white;
+  border-radius: 2px 2px 2px 2px;
+  position: absolute;
+  margin: 0.5rem 0 0 0.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.471px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #151515;
+}
+.MS-bottom-details {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 0rem;
+}
+.MS-Image-title {
+  white-space: nowrap;
+  font-family: "Jost";
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #151515;
+}
+
+.colors {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.MS-Colors1 {
+  margin-right: 0.5rem;
+  height: 15px;
+  width: 15px;
+  background: #95e3db;
+}
+.MS-Colors2 {
+  height: 15px;
+  width: 15px;
+  background: #793527;
+}
+.MS-Colors3 {
+  margin-left: 2.75rem;
+  margin-right: 0.5rem;
+  height: 15px;
+  width: 15px;
+  background: #282837;
+}
+.MS-Colors4 {
+  height: 15px;
+  width: 15px;
+  background: #6a81a7;
+}
+.MS-Colors5 {
+  margin-left: 7rem;
+  margin-right: 0.5rem;
+  height: 15px;
+  width: 15px;
+  background: #5b6671;
+}
+.MS-Colors6 {
+  height: 15px;
+  width: 15px;
+  background: #efe5dc;
+}
+.MS-Colors7 {
+  margin-left: 4.5rem;
+  margin-right: 0.5rem;
+  height: 15px;
+  width: 15px;
+  background: #b4a67d;
+}
+.MS-Colors8 {
+  height: 15px;
+  width: 15px;
+  background: #793527;
+}
+.MS-Colors9 {
+  margin-left: 3rem;
+  margin-right: 0.5rem;
+  height: 15px;
+  width: 15px;
+  background: #e2c5b6;
+}
+.MS-Colors10 {
+  height: 15px;
+  width: 15px;
+  background: #c89b6f;
+}
+.MS-Colors11 {
+  margin-left: 3.2rem;
+  margin-right: 0.5rem;
+  height: 15px;
+  width: 15px;
+  background: #e3d795;
+}
+.MS-Colors12 {
+  height: 15px;
+  width: 15px;
+  background: #e4e4e4;
+}
+.prices {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0rem;
+}
+.MS-Button-Container {
+  margin-top: 1rem;
+  margin-left: 45%;
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1060px) {
+  .MS-images {
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .Title-buttons-Continer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Button-text1 {
+    float: none;
+    max-width: 6rem;
+  }
+}
+
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 720px) {
+  .MS-images {
+    margin-left: 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .MS-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

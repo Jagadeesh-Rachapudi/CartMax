@@ -11,17 +11,29 @@ import { AiOutlineUser, AiOutlineHeart } from "react-icons/ai";
 function NavBar() {
   return (
     <div className="Navbarcontainer">
+      <div className="Icons">
+        <button className="Icon SearchIcon">
+          <BsSearch />
+        </button>
+        <div className="Icon">
+          <AiOutlineUser />
+        </div>
+        <div className="Icon">
+          <AiOutlineHeart />
+        </div>
+        <div className="Icon">
+          <BsHandbag />
+        </div>
+      </div>
+      <img
+        className="NavLogo"
+        alt=""
+        src="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FLogo.png?alt=media&token=3993c197-c111-4ed0-a13c-8bb95ba7a7d4"
+        width="150"
+        height="50"
+      />
       <Navbar bg="light" expand="lg" className="HFNavbar">
         <Container fluid>
-          <Navbar.Brand href="#home" className="Navlogo">
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FLogo.png?alt=media&token=3993c197-c111-4ed0-a13c-8bb95ba7a7d4"
-              width="150"
-              height="50"
-              className="d-inline-block align-top"
-            />{" "}
-          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <div className="Navlinks">
@@ -38,21 +50,21 @@ function NavBar() {
                 <Nav.Link href="#Pages">Pages</Nav.Link>
               </Nav>
             </div>
+          </Navbar.Collapse>
+          <div className="RightIcons">
             <button className="HFnavSearchicon">
               <BsSearch />
             </button>
-          </Navbar.Collapse>
-          {/* <div className="Navrighticons"> */}
-          <div className="Navrighticon ">
-            <AiOutlineUser />
+            <div className="Navrighticon ">
+              <AiOutlineUser />
+            </div>
+            <div className="Navrighticon">
+              <AiOutlineHeart />
+            </div>
+            <div className="Navrighticon lasticon">
+              <BsHandbag />
+            </div>
           </div>
-          <div className="Navrighticon">
-            <AiOutlineHeart />
-          </div>
-          <div className="Navrighticon lasticon">
-            <BsHandbag />
-          </div>
-          {/* </div> */}
         </Container>
       </Navbar>
     </div>

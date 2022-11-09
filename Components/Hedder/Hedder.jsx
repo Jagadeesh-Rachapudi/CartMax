@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Button, Container } from "react-bootstrap";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Button, Container, Row, Col } from "react-bootstrap";
 import { BiPlay } from "react-icons/bi";
 import Book_It_Now from "../../Public Components/Book_It_Now/Book_It_Now";
 
@@ -58,7 +56,7 @@ function Hedder() {
                       look
                     </div>
                     <div className="HedderButtonsContainer">
-                      <Book_It_Now/>
+                      <Book_It_Now />
                       <div className="b2container">
                         <button className="Hedderb2">
                           <BiPlay />
@@ -97,7 +95,7 @@ function Hedder() {
                       look
                     </div>
                     <div className="HedderButtonsContainer">
-                    <Book_It_Now/>
+                      <Book_It_Now />
                       <div className="b2container">
                         <button className="Hedderb2">
                           <BiPlay />

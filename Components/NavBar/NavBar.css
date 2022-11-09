@@ -1,6 +1,11 @@
 .Navbarcontainer {
   display: flex;
   width: 100%;
+  background-color: #f8f9fa;
+}
+.Navbarcontainer > img {
+  margin-left: 15%;
+  background-color: #f8f9fa;
 }
 .HFNavbar {
   margin-left: auto;
@@ -9,16 +14,21 @@
   width: 100%;
   background-color: transparent;
 }
-.Navlogo {
-  margin-left: 10rem;
-}
 .Navlinks {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 23%;
+  gap: 5rem;
+}
+.Navlink {
+  padding-left: 5rem;
 }
 .HFnavSearchicon {
+  margin-left: 39%;
   border: none;
   background-color: transparent;
+}
+.RightIcons {
+  display: flex;
+  flex-direction: row;
 }
 .Navrighticon {
   margin-top: auto;
@@ -30,3 +40,67 @@
 .lasticon {
   margin-right: 15rem;
 }
+.Icons {
+  display: none;
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1000px) {
+  .Navbarcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .HFNavbar {
+    width: 22%;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .NavLogo {
+    padding-top: 0rem;
+    margin: auto;
+  }
+  .RightIcons {
+    display: none;
+  }
+  .Icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5rem;
+  }
+  .SearchIcon {
+    border: none;
+    background-color: transparent;
+  }
+  .Icon {
+    padding-left: 1.25rem;
+  }
+}
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 576px) {
+  .Navbarcontainer > img {
+    margin-left: 0%;
+    background-color: #f8f9fa;
+  }
+  .NavLogo {
+    max-width: 110px;
+    object-fit: contain;
+  }
+  .Icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+  }
+  .SearchIcon {
+    border: none;
+    background-color: transparent;
+  }
+  .Icon {
+    padding-left: 0.25rem;
+  }
+}
+
+

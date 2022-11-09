@@ -22,7 +22,7 @@
 }
 .smallbox {
   margin-top: 2rem;
-  height: 17rem;
+  height: 13rem;
   width: 17rem;
   background: #f3f3f1;
   margin-bottom: 2rem;
@@ -37,18 +37,50 @@
   color: #5d5d5d;
   margin-bottom: 2rem;
 }
+.bigImageContainer {
+  display: flex;
+  flex-direction: row;
+}
 .BigLinks {
   margin-left: 5rem;
   display: flex;
-  flex-direction: row;
-  row-gap: 5rem;
+  flex-direction: column;
+  row-gap: 0rem;
 }
 
 .BigLink {
+  text-decoration: none;
   font-family: "Jost";
   font-style: normal;
   font-weight: 600;
   font-size: 27px;
   line-height: 60px;
+  color: #8c8c8c;
   letter-spacing: -0.02em;
+}
+
+.BigLink:hover {
+  color: #5b5a5a;
+}
+
+.active {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 25px;
+  color: #d9121f;
+}
+
+.active:hover {
+  color: #d9121f;
+}
+.Image-tag-container {
+  position: relative;
+}
+.BigImage {
+  z-index: +1;
+  position: relative;
+}
+.Experiance-tag {
+  z-index: -1;
+  position: absolute;
 }
