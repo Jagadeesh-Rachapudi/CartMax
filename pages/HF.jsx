@@ -20,18 +20,18 @@ function HF() {
     <div>
       <TopRibbon />
       <NavBar />
-      {/* <Hedder /> */}
-      {/* <Ads /> */}
-      {/* <Behind /> */}
-      {/* <Sales /> */}
-      {/* <Mini /> */}
-      {/* <MS /> */}
-      {/* <AE /> */}
-      {/* <SE /> */}
+      <Hedder />
+      <Ads />
+      <Behind />
+      <Sales />
+      <Mini />
+      <MS />
+      <AE />
+      <SE />
       <ES />
       <Blog />
       <Instagram />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
