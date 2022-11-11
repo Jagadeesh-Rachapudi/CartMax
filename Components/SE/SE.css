@@ -1,5 +1,4 @@
 .SE-Body {
-  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -66,12 +65,11 @@
     font-family: "Jost";
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 55px;
     color: #0f0f0f;
   }
   .SE-Continer2 {
-    /* margin-left: 0; */
     align-items: center;
     flex-direction: column;
     margin-left: 5rem;

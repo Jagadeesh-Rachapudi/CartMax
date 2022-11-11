@@ -16,10 +16,13 @@ function Mini() {
     <div className="Mini-body">
       <Container className="Mini-Container">
         <Row>
-          <Col sm={12} lg={6} xl={6} xxl={6}>
-            <img src="https://picsum.photos/500/600" />
+          <Col sm={12} lg={12} xl={6} xxl={6}>
+            <img
+              className="Mini-Big-Image"
+              src="https://picsum.photos/500/600"
+            />
           </Col>
-          <Col sm={12} lg={6} xl={6} xxl={6}>
+          <Col sm={12} lg={12} xl={6} xxl={6}>
             <div className="MiniIntro">JACKET & COAST</div>
             <div className="MiniHedding">Pleated Mini Bucket Bag </div>
             <div className="Prices">

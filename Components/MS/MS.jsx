@@ -16,7 +16,7 @@ function MS() {
             <div className="Button-text2">M2 Collection</div>
           </div>
         </div>
-      </div>
+      </div>  
       <div className="MS-images">
         <div className="MS-image">
           <button className="MS-Sale-Button">Sale</button>

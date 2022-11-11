@@ -2,10 +2,10 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Book_It_Now from "../../Public Components/Book_It_Now/Book_It_Now";
 function ES() {
-  const [day, setDay] = useState(0);
-  const [hrs, setHrs] = useState(0);
-  const [min, setMin] = useState(0);
-  const [sec, setSec] = useState(10);
+  const [day, setDay] = useState(9);
+  const [hrs, setHrs] = useState(12);
+  const [min, setMin] = useState(18);
+  const [sec, setSec] = useState(39);
   useEffect(() => {
     setTimeout(() => {
       setSec((sec) => sec - 1);

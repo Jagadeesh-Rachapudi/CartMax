@@ -8,7 +8,7 @@ function Blog() {
       <div className="Blog-Hedding">
         Get Cartmax now and set up your Store Today
       </div>
-      <div className="Blog-Images">
+      <div className="Blog-Images">  
         <div className="Blog-Image">
           <img src="https://picsum.photos/320/400" />
           <div className="Blog-Image-Details">

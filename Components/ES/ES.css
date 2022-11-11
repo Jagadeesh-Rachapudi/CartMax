@@ -151,6 +151,7 @@
   }
   .ES-Timer {
     margin-top: 15rem;
+    margin-left: 30%;
   }
   .ES-Button-Container {
     align-items: center;
@@ -180,6 +181,6 @@
   .ES-Timer {
     margin-top: 15rem;
     object-fit: contain;
-    margin-left: 2%;
+    margin-left: 10%;
   }
 }

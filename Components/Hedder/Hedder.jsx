@@ -56,7 +56,7 @@ function Hedder() {
                       look
                     </div>
                     <div className="HedderButtonsContainer">
-                      <Book_It_Now />
+                      <Book_It_Now content="Book It Now !" />
                       <div className="b2container">
                         <button className="Hedderb2">
                           <BiPlay />
@@ -78,7 +78,7 @@ function Hedder() {
               </Row>
             </Container>
           </article>
-          <article>
+          {/* <article>
             <Container fluid>
               <Row>
                 <Col sm={12} lg={9} xl={9} xxl={9}>
@@ -88,14 +88,14 @@ function Hedder() {
                     <div className="HedderTextContainer">
                       <div className="HedderMainTextpart1">Mini</div>
                       <div className="HedderMainTextnext">bag Arrivals</div>
-                    </div>
+                    </div>  
                     <div className="HedderSmallText">
                       A resolution to get behind Effortlessly refined styles for
                       celebrating A stand out shirt is a one-and-done autumn
                       look
                     </div>
                     <div className="HedderButtonsContainer">
-                      <Book_It_Now />
+                      <Book_It_Now content="Book It Now !" />
                       <div className="b2container">
                         <button className="Hedderb2">
                           <BiPlay />
@@ -107,7 +107,7 @@ function Hedder() {
                 </Col>
               </Row>
             </Container>
-          </article>
+          </article> */}
         </Slider>
       </div>
     </div>

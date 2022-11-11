@@ -1,9 +1,9 @@
-.HedderbuttonText {
-  padding: 0.5rem 0 0 0.5rem;
-  font-family: "Jost";
+.HedderRedButton {
+  font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  color: #212121;
+  font-weight: 700;
+  font-size: 12.918px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
 }

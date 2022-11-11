@@ -45,7 +45,7 @@
 }
 /*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1085px) {
   .Navbarcontainer {
     display: flex;
     flex-direction: row-reverse;
@@ -53,7 +53,7 @@
   }
   .HFNavbar {
     width: 22%;
-    padding: 0;
+    padding: 0;  
     margin-right: 0;
     margin-left: 0;
   }

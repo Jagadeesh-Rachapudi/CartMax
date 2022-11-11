@@ -13,7 +13,7 @@
   line-height: 18px;
   color: #d9121f;
   text-align: center;
-}
+}    
 .Blog-Hedding {
   font-family: "Jost";
   font-style: normal;
@@ -44,6 +44,7 @@
   border: 2px solid #f6f3f3;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
 }
 .Blog-Image-Details {
   display: flex;

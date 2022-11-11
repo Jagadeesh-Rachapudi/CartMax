@@ -1,11 +1,7 @@
-.MS-images {
-  margin-left: 5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-}
 .Monthly-Sales_body {
+  margin-top: 8rem;
   background: #e8ecef;
+  padding-bottom: 2rem;
 }
 .Monthly-Sales_Intro {
   margin-left: 5rem;
@@ -69,6 +65,12 @@
   line-height: 16px;
   letter-spacing: -0.02em;
   color: #4c4c4c;
+}
+.MS-images {
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
 }
 .MS-image > img {
   position: relative;

@@ -14,7 +14,7 @@ function NavBar() {
       <div className="Icons">
         <button className="Icon SearchIcon">
           <BsSearch />
-        </button>
+        </button>  
         <div className="Icon">
           <AiOutlineUser />
         </div>
