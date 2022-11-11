@@ -1,0 +1,264 @@
+.Footer-Body {
+  margin-top: 20rem;
+  background-color: #282828;
+
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FFooter-bg.png?alt=media&token=b07f324a-d38c-45a7-8eaa-670f10a71d1c");
+
+  background-repeat: repeat-y;
+  /* background-size: 100% auto; */
+}
+.Footer-Hedding {
+  width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  font-family: "Jost";
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.Footer-Form-Button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Footer-Button-Container {
+  margin-top: 2rem;
+  float: left;
+}
+.Footer-Form {
+  margin-top: 2rem;
+  height: 4rem;
+  min-width: 50%;
+  float: right;
+  padding-left: 2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 17px;
+  color: #ffffff;
+  border-radius: 2px 2px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #303030;
+  border: none;
+}
+
+.Footer-Button-Container > button {
+  height: 4rem;
+  width: 12rem;
+  float: left;
+}
+.Footer-Button {
+  height: 2rem;
+  font-family: "Jost";
+  font-size: 17.835px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.Footer-Line {
+  margin-top: 2rem;
+  size: 5px;
+  background: #474747;
+}
+.Footer-Bottom-Links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Footer-Logo {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.Footer-Social-Links {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Footer-Social-Link {
+  color: black;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+.Footer-Logo-Content {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}
+.Footer-Copy {
+  margin-top: 5rem;
+  font-family: "Jost";
+  font-size: 17px;
+  line-height: 20px;
+  color: #f2f2f2;
+}
+.Footer-Support {
+  margin-left: 2rem;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
+.Footer-Shop {
+  margin-left: 2rem;
+  max-width: fit-content;
+  white-space: nowrap;
+}
+.Footer-Company {
+  margin-left: 2rem;
+  white-space: nowrap;
+}
+.Footer-Contactus {
+  margin-left: 2rem;
+  max-width: fit-content;
+  margin-top: 2rem;
+  width: 100%;
+}
+.Footer-Hedding-Link {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+}
+.Footer-Hedding-Link:hover {
+  color: #c4c3c3;
+}
+.Footer-Line-Social1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #e3dede;
+  width: 4rem;
+}
+.Footer-Line-Social2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #e3dede;
+  width: 3rem;
+}
+.Footer-Line-Social3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #e3dede;
+  width: 5rem;
+}
+.Footer-Line-Social4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #e3dede;
+  width: 6rem;
+}
+.Footer-Social-Last-Links {
+  display: flex;
+  flex-direction: column;
+}
+.Footer-Sub-Hedding-Link {
+  font-family: "Jost";
+  font-size: 17px;
+  line-height: 35px;
+  text-decoration: none;
+  color: #d6d6d6;
+}
+.Footer-Sub-Hedding-Link:hover {
+  color: #b9b8b8;
+}
+.Footer-Call-Icon {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.Footer-Copy-Cards {
+  display: flex;
+  justify-content: space-between;
+}
+.Footer-Copy {
+  margin-left: 1rem;
+}
+.Footer-Cards {
+  margin-top: 4rem;
+  max-height: 1.5rem;
+  margin-right: 1rem;
+}
+.No {
+  display: none;
+}
+.Footer-links-sm {
+  display: none;
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1100px) {
+  .Footer-Bottom-Links {
+    display: none;
+  }
+  .Footer-Logo-sm {
+    display: block;
+  }
+  .Footer-Logo-sm > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Footer-Logo-Content-sm {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+  }
+  .Footer-Social-Links-sm {
+    margin-top: 1rem;
+    margin-left: 40%;
+  }
+  .Footer-links-sm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-right: auto;
+  }
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 740px) {
+  .Footer-links-sm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 2rem;
+    margin-right: auto;
+  }
+  .Footer-Company {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .Footer-Support {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+  .Footer-Social-Last-Links {
+    width: 100%;
+  }
+}

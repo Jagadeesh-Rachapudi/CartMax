@@ -9,8 +9,12 @@ import "../Public Components/Book_It_Now/Book_It_Now.css";
 import "../Components/Sales/Sales.css";
 import "../Components/Mini/Mini.css";
 import "../Components/MS/MS.css";
-import '../Components/AE/AX.css'
-import '../Components/SE/SE.css'
+import "../Components/AE/AX.css";
+import "../Components/SE/SE.css";
+import "../Components/ES/ES.css";
+import "../Components/Blog/Blog.css";
+import "../Components/Instagram/Instagram.css";
+import "../Components/Footer/Footer.css";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
