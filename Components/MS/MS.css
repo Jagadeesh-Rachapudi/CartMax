@@ -186,7 +186,7 @@
 .prices {
   display: flex;
   flex-direction: row;
-  margin-left: 0rem;
+  margin-left: 1rem;
 }
 .MS-Button-Container {
   margin-top: 1rem;
@@ -237,5 +237,9 @@
   .MS-image {
     margin-left: auto;
     margin-right: auto;
+  }
+  .MS-Button-Container {
+    margin-top: 1rem;
+    margin-left: 35%;
   }
 }

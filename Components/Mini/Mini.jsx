@@ -23,27 +23,47 @@ function Mini() {
             />
           </Col>
           <Col sm={12} lg={12} xl={6} xxl={6}>
-            <div className="MiniIntro">JACKET & COAST</div>
-            <div className="MiniHedding">Pleated Mini Bucket Bag </div>
-            <div className="Prices">
-              <div className="Originalprice">89.00$ </div>
-              <div className="Discountprice">80.00$</div>
-            </div>
-            <div className="Mini-Content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi
+            <div className="Mini-Part-1">
+              <div className="MiniIntro">JACKET & COAST</div>
+              <div className="MiniHedding">Pleated Mini Bucket Bag </div>
+              <div className="Prices">
+                <div className="Originalprice">89.00$ </div>
+                <div className="Discountprice">80.00$</div>
+              </div>
+              <div className="Mini-Content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi
+              </div>
             </div>
             <Container className="Mini-Slider-Container">
               <Row>
-                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage SlideImage-1">
+                <Col
+                  sm={3}
+                  lg={3}
+                  xl={3}
+                  xxl={3}
+                  className="SlideImage SlideImage-1"
+                >
                   <img src="https://picsum.photos/125/125" />
                 </Col>
-                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage SlideImage-2">
+                <Col
+                  sm={3}
+                  lg={3}
+                  xl={3}
+                  xxl={3}
+                  className="SlideImage SlideImage-2"
+                >
                   <img src="https://picsum.photos/125/125" />
                 </Col>
-                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage SlideImage-3">
+                <Col
+                  sm={3}
+                  lg={3}
+                  xl={3}
+                  xxl={3}
+                  className="SlideImage SlideImage-3"
+                >
                   <img src="https://picsum.photos/125/125" />
                 </Col>
               </Row>

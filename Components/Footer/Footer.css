@@ -204,6 +204,9 @@
 /*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
 
 @media screen and (max-width: 1100px) {
+  .Footer-Cards {
+    display: none;
+  }
   .Footer-Bottom-Links {
     display: none;
   }
@@ -267,13 +270,25 @@
     float: none;
     margin-left: 1rem;
   }
+  .Footer-Logo-Content-sm {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+  }
   .Footer-Company {
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .Footer-Support {
     margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .Footer-Social-Last-Links {
     width: 100%;

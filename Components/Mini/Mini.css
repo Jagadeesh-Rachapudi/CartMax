@@ -1,7 +1,6 @@
 .Mini-body {
-  margin-top: 5rem;
+  margin-top: 2rem;
   background-color: white;
-  /* height: 100vh; */
 }
 
 .Mini-Container {
@@ -9,6 +8,7 @@
 }
 .Mini-Big-Image {
   max-width: 100%;
+  margin-bottom: 1rem;
 }
 .MiniIntro {
   font-family: "Roboto";
@@ -97,6 +97,11 @@
   max-height: 3rem;
   margin-left: 2rem;
 }
+
+.Mini-Part-1{
+  margin-top: 10%;
+}
+
 /* ======================== */
 @media screen and (max-width: 1190px) {
   .Mini-Slider-Container {

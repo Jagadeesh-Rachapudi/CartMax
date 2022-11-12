@@ -78,7 +78,7 @@ function Hedder() {
               </Row>
             </Container>
           </article>
-          {/* <article>
+          <article>
             <Container fluid>
               <Row>
                 <Col sm={12} lg={9} xl={9} xxl={9}>
@@ -88,7 +88,7 @@ function Hedder() {
                     <div className="HedderTextContainer">
                       <div className="HedderMainTextpart1">Mini</div>
                       <div className="HedderMainTextnext">bag Arrivals</div>
-                    </div>  
+                    </div>
                     <div className="HedderSmallText">
                       A resolution to get behind Effortlessly refined styles for
                       celebrating A stand out shirt is a one-and-done autumn
@@ -103,11 +103,20 @@ function Hedder() {
                         <div className="HedderbuttonText">WATCH LOOKBOOK</div>
                       </div>
                     </div>
+                    <article className="HedderOffer">
+                      <article className="HedderOfferCircle" />
+                      <div className="HedderOfferText">
+                        <div className="OfferSmallText">
+                          Free Shipping on Domestic
+                        </div>
+                        <div className="OfferBigText">Orders Over $150</div>
+                      </div>
+                    </article>
                   </div>
                 </Col>
               </Row>
             </Container>
-          </article> */}
+          </article>
         </Slider>
       </div>
     </div>

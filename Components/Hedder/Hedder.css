@@ -2,7 +2,6 @@
   background-color: #f8f9fa;
 }
 .HedderBody {
-  
   width: 95%;
   background-color: #f8f9fa;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FHedder-image%20(2)-cropped.png?alt=media&token=a6b246bb-5405-4a5e-af3e-91995e578378");
@@ -158,21 +157,59 @@
 /*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
 
 @media screen and (max-width: 690px) {
+  .HedderBody {
+    width: 85%;
+    background-color: #f8f9fa;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FHedder-image%20(2)-cropped.png?alt=media&token=a6b246bb-5405-4a5e-af3e-91995e578378");
+    background-size: cover;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .HedderContent {
     margin-top: 3rem;
     margin-left: 5%;
   }
   .HedderMainText {
     line-height: 55px;
-    font-size: 50px;
+    font-size: 35px;
   }
   .HedderMainTextpart1 {
     line-height: 55px;
-    font-size: 50px;
+    font-size: 35px;
   }
   .HedderMainTextnext {
     margin-left: 1rem;
     line-height: 55px;
-    font-size: 50px;
+    font-size: 35px;
+  }
+  .HedderSmallText {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #717171;
+  }
+  .HedderButtonsContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    /* row-gap: 1rem; */
+  }
+  .HedderbuttonText {
+    white-space: nowrap;
+    padding: 0.5rem 0 0 0.5rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    color: #212121;
+  }
+  .b2container {
+    padding-left: 0rem;
   }
 }

@@ -37,7 +37,7 @@ function Sales() {
                   className="Sales-Image"
                   src="https://picsum.photos/250/350"
                 />
-                <div className="SalesTitle">Crew Neck T-shirt</div>
+                <div className="SalesTitle">Tarot Garden Dress</div>
                 <div className="prices">
                   <div className="OriginalPrice">89.00$</div>
                   <div className="OfferPrice">80.00$</div>
@@ -54,7 +54,7 @@ function Sales() {
                   className="Sales-Image"
                   src="https://picsum.photos/250/350"
                 />
-                <div className="SalesTitle">Crew Neck T-shirt</div>
+                <div className="SalesTitle">Basic Long Sleeve</div>
                 <div className="prices">
                   <div className="OriginalPrice">89.00$</div>
                   <div className="OfferPrice">80.00$</div>
@@ -71,7 +71,7 @@ function Sales() {
                   className="Sales-Image"
                   src="https://picsum.photos/250/350"
                 />
-                <div className="SalesTitle">Crew Neck T-shirt</div>
+                <div className="SalesTitle">Cross Body Mini Bag</div>
                 <div className="prices">
                   <div className="OriginalPrice">89.00$</div>
                   <div className="OfferPrice">80.00$</div>
