@@ -3,7 +3,7 @@ import { FaShippingFast } from "react-icons/fa";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { GiReceiveMoney } from "react-icons/gi";
 function Instagram() {
-  return (
+  return (    
     <div className="Instagram-Body">
       <div className="Insta-Intro">JACKET & COAST</div>
       <div className="Insta-Hedding">@Cartmax Instagram</div>

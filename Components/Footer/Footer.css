@@ -1,5 +1,5 @@
 .Footer-Body {
-  margin-top: 20rem;
+  /* margin-top: 20rem; */
   background-color: #282828;
 
   background-image: url("https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FFooter-bg.png?alt=media&token=b07f324a-d38c-45a7-8eaa-670f10a71d1c");
@@ -249,6 +249,23 @@
     width: 100%;
     margin-top: 2rem;
     margin-right: auto;
+  }
+  .Footer-Hedding {
+    width: 100%;
+  }
+  .Footer-Form-Button-container {
+    grid-template-columns: 1fr;
+  }
+  .Footer-Button-Container > button {
+    height: 4rem;
+    width: 90%;
+    margin-left: 1rem;
+    float: none;
+  }
+  .Footer-Form {
+    min-width: 90%;
+    float: none;
+    margin-left: 1rem;
   }
   .Footer-Company {
     margin-top: 2rem;

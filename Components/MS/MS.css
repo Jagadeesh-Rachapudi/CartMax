@@ -1,5 +1,5 @@
 .Monthly-Sales_body {
-  margin-top: 8rem;
+  margin-top: 2rem;
   background: #e8ecef;
   padding-bottom: 2rem;
 }
@@ -214,6 +214,9 @@
 /*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
 
 @media screen and (max-width: 720px) {
+  .Monthly-Sales_body {
+    margin-top: 2rem;
+  }
   .MS-images {
     margin-left: 0rem;
     display: grid;

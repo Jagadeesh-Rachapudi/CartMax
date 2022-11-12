@@ -27,7 +27,7 @@
   z-index: +1;
   height: 100px;
   width: 100px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .ES-box4 {
   margin-top: 12rem;
@@ -35,14 +35,14 @@
   z-index: +1;
   height: 100px;
   width: 100px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 .ES-box5 {
   z-index: +1;
   margin-top: 18.28rem;
   height: 100px;
   width: 100px;
-  background-color: #C8C8C8;
+  background-color: #c8c8c8;
 }
 .ES-Intro {
   z-index: +2;
@@ -162,25 +162,40 @@
 /*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
 
 @media screen and (max-width: 710px) {
+  .ES-Body {
+    margin-top: 3rem;
+  }
   .ES-Hedding {
     white-space: unset;
     margin-left: 0;
-    margin-left: 20%;
+    margin-left: 7%;
     text-align: center;
     white-space: nowrap;
     text-align: center;
     width: 50%;
     font-size: 30px;
   }
+  .ES-Intro {
+    margin-left: 30%;
+  }
   .ES-Content {
-    margin-left: 20%;
+    margin-left: 15%;
     width: 70%;
     text-align: center;
     margin-top: 8rem;
   }
   .ES-Timer {
-    margin-top: 15rem;
+    margin-top: 18rem;
     object-fit: contain;
-    margin-left: 10%;
+    margin-left: 15%;
+  }
+  .ES-days {
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0;
+    margin-right: 1rem;
   }
 }

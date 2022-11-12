@@ -37,13 +37,13 @@ function Mini() {
             </div>
             <Container className="Mini-Slider-Container">
               <Row>
-                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage">
+                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage SlideImage-1">
                   <img src="https://picsum.photos/125/125" />
                 </Col>
-                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage">
+                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage SlideImage-2">
                   <img src="https://picsum.photos/125/125" />
                 </Col>
-                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage">
+                <Col sm={3} lg={3} xl={3} xxl={3} className="SlideImage SlideImage-3">
                   <img src="https://picsum.photos/125/125" />
                 </Col>
               </Row>

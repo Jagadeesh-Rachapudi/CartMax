@@ -1,7 +1,7 @@
 .Mini-body {
   margin-top: 5rem;
   background-color: white;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .Mini-Container {
@@ -98,6 +98,13 @@
   margin-left: 2rem;
 }
 /* ======================== */
+@media screen and (max-width: 1190px) {
+  .Mini-Slider-Container {
+    margin-left: 0rem;
+  }
+}
+
+/* ======================== */
 @media screen and (max-width: 992px) {
   .MiniHedding {
     font-size: 30px;
@@ -108,14 +115,23 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .Mini-Buttons {
+    margin-top: 2rem;
+    margin-right: 0rem;
+    width: 5rem;
+    height: 2.42rem;
+    border-radius: 8px;
+    border: 2px solid #cfcecc;
+  }
   .SlideImage {
     margin-left: 0rem;
     margin-bottom: 2rem;
   }
 }
 /* ======================== */
-@media screen and (max-width: 1190px) {
-  .Mini-Slider-Container {
-    margin-left: 0rem;
+@media screen and (max-width: 700px) {
+  .SlideImage-2,
+  .SlideImage-3 {
+    display: none;
   }
 }
