@@ -98,7 +98,7 @@
   margin-left: 2rem;
 }
 
-.Mini-Part-1{
+.Mini-Part-1 {
   margin-top: 10%;
 }
 
@@ -135,6 +135,12 @@
 }
 /* ======================== */
 @media screen and (max-width: 700px) {
+  .Cart-Buttom {
+    min-width: 10rem;
+    margin-top: 2rem;
+    max-height: 3rem;
+    margin-left: 2rem;
+  }
   .SlideImage-2,
   .SlideImage-3 {
     display: none;

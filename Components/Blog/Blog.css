@@ -157,7 +157,7 @@
     grid-template-columns: 1fr;
     width: 100%;
     max-width: 75%;
-    margin-left: auto;
+    margin-left: 1rem;
     margin-right: auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
