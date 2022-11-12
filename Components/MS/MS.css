@@ -217,6 +217,17 @@
   .Monthly-Sales_body {
     margin-top: 2rem;
   }
+  .MS-Hedding {
+    white-space: nowrap;
+    font-family: "Jost";
+    font-style: normal;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
   .MS-images {
     margin-left: 0rem;
     display: grid;

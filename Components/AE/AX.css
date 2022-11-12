@@ -50,6 +50,9 @@
 /*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
 
 @media screen and (max-width: 600px) {
+  .AE-Explore-Button{
+    margin-left: 30%;
+  }
   .AE-Hedding {
     max-width: 100%;
     font-weight: 700;

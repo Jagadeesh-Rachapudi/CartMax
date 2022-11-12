@@ -10,7 +10,7 @@ function AE() {
       </div>
       <div className="AE-Intro">AMAZON ESSENTIALS</div>
       <div className="AE-Hedding">Get -50% From Summer Collection</div>
-      <div className="MS-Button-Container">
+      <div className="MS-Button-Container AE-Explore-Button">
         <Book_It_Now content="EXPLORE NOW" />
       </div>
     </div>
