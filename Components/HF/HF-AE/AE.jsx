@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillPlayFill } from "react-icons/bs";
-import Book_It_Now from "../../Public Components/Book_It_Now/Book_It_Now";
+import Book_It_Now from "../../../Utils/Book_It_Now/Book_It_Now";
 function AE() {
   return (
     <div className="AE-Body">

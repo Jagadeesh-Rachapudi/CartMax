@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container, Col } from "react-bootstrap";
-import Book_It_Now from "../../Public Components/Book_It_Now/Book_It_Now";
+import Book_It_Now from "../../../Utils/Book_It_Now/Book_It_Now";
 import { useState } from "react";
 
 function Behind() {

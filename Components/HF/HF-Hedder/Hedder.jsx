@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import { BiPlay } from "react-icons/bi";
-import Book_It_Now from "../../Public Components/Book_It_Now/Book_It_Now";
+import Book_It_Now from "../../../Utils/Book_It_Now/Book_It_Now";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;

@@ -1,5 +1,5 @@
 import React from "react";
-import Book_It_Now from "../../Public Components/Book_It_Now/Book_It_Now";
+import Book_It_Now from "../../../Utils/Book_It_Now/Book_It_Now";
 
 function Blog() {
   return (
@@ -8,7 +8,7 @@ function Blog() {
       <div className="Blog-Hedding">
         Get Cartmax now and set up your Store Today
       </div>
-      <div className="Blog-Images">  
+      <div className="Blog-Images">
         <div className="Blog-Image">
           <img src="https://picsum.photos/320/400" />
           <div className="Blog-Image-Details">

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Book_It_Now from "../../Public Components/Book_It_Now/Book_It_Now";
+import Book_It_Now from "../../../Utils/Book_It_Now/Book_It_Now";
 function ES() {
   const [day, setDay] = useState(9);
   const [hrs, setHrs] = useState(12);

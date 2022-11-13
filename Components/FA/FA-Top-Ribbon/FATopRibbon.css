@@ -1,0 +1,76 @@
+.FA-TopRibbon-Body {
+  height: 2rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.FA-TopRibbon-Part1 {
+  background-color: rgb(36, 31, 69);
+}
+.FA-TopRibbon-Part1-Text {
+  white-space: nowrap;
+  font-family: "Jost";
+  font-size: 13px;
+  line-height: 15px;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(36, 31, 69);
+}
+.FA-TopRibbon-Part2 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.5rem;
+}
+
+.FA-TopRibbon-Icon1 {
+  margin-left: 40%;
+  margin-right: 2%;
+}
+.FA-TopRibbon-Icon2 {
+  margin-right: 2%;
+}
+.FA-TopRibbon-Icon3 {
+  margin-right: 2%;
+}
+
+.FA-TopRibbon-Order-Tracking,
+.FA-TopRibbon-Text,
+.FA-TopRibbon-USD {
+  /* white-space: nowrap;   */
+  padding-top: 0.2rem;
+  font-family: "Jost";
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 2%;
+}
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 860px) {
+  .FA-TopRibbon-Body {
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .FA-TopRibbon-icon {
+    margin-left: 17%;
+  }
+  .FA-TopRibbon-Icon1 {
+    margin-left: 20%;
+    margin-right: 2%;
+  }
+}
+
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 400px) {
+  .FA-TopRibbon-icon {
+    margin-left: 0%;
+  }
+  .FA-TopRibbon-Icon1 {
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+}
