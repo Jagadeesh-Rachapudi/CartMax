@@ -27,6 +27,7 @@ import "../Components/FA/FA-Hedder/FAHedder.css";
 import "../Components/FA/FA-Below-Hedder/FABelowHedder.css";
 import "../Components/FA/FA-Category/FACategory.css";
 import "../Components/FA/FA-NA/FANA.css";
+import "../Components/FA/FA-Summer/FASum.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

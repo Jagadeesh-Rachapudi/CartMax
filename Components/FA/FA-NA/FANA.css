@@ -1,5 +1,4 @@
 .FA-NA-Body {
-  height: 100vh;
 }
 
 .FA-NA-Intro {
@@ -214,6 +213,92 @@
   border-radius: 50%;
   background-color: #4b4c4a;
 }
+
+.FA-NA-Black-Images {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+.FA-NA-Black-Image {
+  height: 460px;
+  width: 350px;
+  background-color: #252525;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.FA-NA-Black-Image-Into {
+  font-family: "Jost";
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #e1e1e1;
+  margin-top: 6.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.FA-NA-Black-Image-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+.FA-NA-Black-Image-Percentage {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 126.313px;
+  line-height: 100px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  text-align: center;
+}
+.FA-NA-Black-Button-Container {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.FA-NA-Black-Button {
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  background-color: #494949;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+  border-radius: 6px 6px 6px 6px;
+}
+.FA-NA-Black-Button:hover {
+  background-color: #f92950;
+}
+.FA-NA-Black-Image-Down-Text {
+  font-family: "Jost";
+  font-size: 35px;
+  line-height: 41px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+/* ===================================== */
+@media screen and (max-width: 1126px) {
+  .FA-NA-Black3 {
+    display: none;
+  }
+}
+
 /* ===================================== */
 @media screen and (max-width: 910px) {
   .FA-NA-Image-3 {
@@ -222,8 +307,24 @@
 }
 
 /* ===================================== */
+@media screen and (max-width: 773px) {
+  .FA-NA-Black2 {
+    display: none;
+  }
+}
+
+/* ===================================== */
 @media screen and (max-width: 600px) {
   .FA-NA-Image-2 {
     display: none;
+  }
+}
+
+/* ===================================== */
+@media screen and (max-width: 352px) {
+  .FA-NA-Black-Image {
+    height: 360px;
+    width: 250px;
+    background-color: #252525;
   }
 }
