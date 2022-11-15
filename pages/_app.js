@@ -26,6 +26,7 @@ import "../Components/FA/FA-NavBar/FANAVBAR.css";
 import "../Components/FA/FA-Hedder/FAHedder.css";
 import "../Components/FA/FA-Below-Hedder/FABelowHedder.css";
 import "../Components/FA/FA-Category/FACategory.css";
+import "../Components/FA/FA-NA/FANA.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

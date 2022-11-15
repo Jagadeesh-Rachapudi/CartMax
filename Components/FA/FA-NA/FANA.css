@@ -1,0 +1,229 @@
+.FA-NA-Body {
+  height: 100vh;
+}
+
+.FA-NA-Intro {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f92950;
+  text-align: center;
+  margin-top: 2rem;
+}
+.FA-NA-Hedding {
+  margin-top: 1rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.FA-NA-Images {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+.FA-NA-Image {
+  position: relative;
+}
+.FA-NA-Img {
+  position: relative;
+}
+.FA-NA-Img-sales {
+  position: absolute;
+  margin-top: -10;
+  height: 1rem;
+  width: 2rem;
+  background-color: #fb4a18;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.FA-NA-Percent {
+  z-index: +1;
+  position: absolute;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: #fb4a18;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.FA-NA-Hot {
+  z-index: +1;
+  position: absolute;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  width: 2.65rem;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background-color: #151515;
+}
+.FA-NA-Search {
+  z-index: +1;
+  position: absolute;
+  margin-left: 14rem;
+  margin-top: 0.2rem;
+  background-color: white;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.FA-NA-Search-Icon,
+.FA-NA-Love-Icon {
+  margin-left: 0.29rem;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.FA-NA-Love {
+  z-index: +1;
+  position: absolute;
+  margin-left: 14rem;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.FA-NA-Sales-Img {
+  position: relative;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 350px;
+  width: 250px;
+}
+
+.FA-NA-Bottom-Text {
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 19.8rem;
+  padding-left: 5rem;
+  padding-top: 0.25rem;
+  color: white;
+  width: 250px;
+  height: 2rem;
+  background-color: black;
+}
+
+.FA-NA-Sales-Img:hover {
+  position: relative;
+  opacity: 0.2;
+}
+
+.FA-NA-Part1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.FA-NA-Image-Title {
+  margin-top: 0.5rem;
+  font-family: "Jost";
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-left: 1rem;
+}
+.FA-NA-Prices {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+.FA-NA-Original-Price {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  text-decoration-line: line-through;
+  color: #151515;
+}
+.FA-NA-Offer-Price {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #606060;
+}
+.FA-NA-Colors {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  margin-left: 1rem;
+}
+.FA-NA-Color-1 {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+}
+.FA-NA-Color-2 {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #e31e27;
+}
+.FA-NA-Color-3 {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #c5d518;
+}
+.FA-NA-Color-4 {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #e6ddce;
+}
+.FA-NA-Color-5 {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #a6a6a4;
+}
+.FA-NA-Color-6 {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #4b4c4a;
+}
+/* ===================================== */
+@media screen and (max-width: 910px) {
+  .FA-NA-Image-3 {
+    display: none;
+  }
+}
+
+/* ===================================== */
+@media screen and (max-width: 600px) {
+  .FA-NA-Image-2 {
+    display: none;
+  }
+}
