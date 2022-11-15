@@ -1,0 +1,143 @@
+.FA-Cat-Top {
+  height: 50vh;
+  background-color: #4c4c4c;
+}
+.FA-Cat-Bottom {
+  height: 20vh;
+  background-color: #eaeff5;
+}
+.FA-Cat-Intro {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f92950;
+  text-align: center;
+  margin-top: 2rem;
+}
+.FA-Cat-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.FA-Cat-Products {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.FA-Cat-Product1 {
+  margin-right: 2.5rem;
+  height: 320px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 100px 100px 100px 100px;
+}
+.FA-Cat-Product2,
+.FA-Cat-Product3 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  height: 320px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 100px 100px 100px 100px;
+}
+.FA-Cat-Product4 {
+  margin-left: 2.5rem;
+  height: 320px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 100px 100px 100px 100px;
+}
+.FA-Cat-Small-Product1 {
+  margin-left: 0.62rem;
+  margin-top: 0.5rem;
+  height: 240px;
+  width: 182px;
+  background-color: #F5F5F5;
+  border-radius: 91px 91px 91px 91px;
+}
+.FA-Cat-Small-Product2 {
+  margin-left: 0.62rem;
+  margin-top: 0.5rem;
+  height: 240px;
+  width: 182px;
+  background-color: #fee3ce;
+  border-radius: 91px 91px 91px 91px;
+}
+.FA-Cat-Small-Product3 {
+  margin-left: 0.62rem;
+  margin-top: 0.5rem;
+  height: 240px;
+  width: 182px;
+  background-color: #f6f6f6;
+  border-radius: 91px 91px 91px 91px;
+}
+.FA-Cat-Small-Product4 {
+  margin-left: 0.62rem;
+  margin-top: 0.5rem;
+  height: 240px;
+  width: 182px;
+  background-color: #f1f1f3;
+  border-radius: 91px 91px 91px 91px;
+}
+.FA-Cat-Tilte {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-align: center;
+  margin-top: 5%;
+}
+.FA-Cat-Count {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: -0.02em;
+  color: #f92950;
+  text-align: center;
+  margin-top: 3%;
+}
+/* ============================== */
+@media screen and (max-width: 1046px) {
+  .FA-Cat-Prod4 {
+    display: none;
+  }
+  .FA-Cat-Product3 {
+    margin-right: 0;
+  }
+}
+/* ============================== */
+@media screen and (max-width: 763px) {
+  .FA-Cat-Prod3 {
+    display: none;
+  }
+  .FA-Cat-Product2 {
+    margin-right: 0;
+  }
+}
+/* ============================== */
+@media screen and (max-width: 763px) {
+  .FA-Cat-Prod2 {
+    display: none;
+  }
+  .FA-Cat-Product1 {
+    margin-right: 0;
+  }
+}

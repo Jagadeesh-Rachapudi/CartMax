@@ -22,6 +22,10 @@ import "../Components/HF/HF-Instagram/Instagram.css";
 import "../Components/HF/HF-Footer/Footer.css";
 
 import "../Components/FA/FA-Top-Ribbon/FATopRibbon.css";
+import "../Components/FA/FA-NavBar/FANAVBAR.css";
+import "../Components/FA/FA-Hedder/FAHedder.css";
+import "../Components/FA/FA-Below-Hedder/FABelowHedder.css";
+import "../Components/FA/FA-Category/FACategory.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

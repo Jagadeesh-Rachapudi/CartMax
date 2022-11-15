@@ -1,0 +1,82 @@
+.FAHedder-Body {
+  background-color: #b7b7b7;
+  display: grid;
+  grid-template-columns: 12% 88%;
+}
+.FAHedder-Text-Image-Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.FAHedder-Intro {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #161616;
+  margin-bottom: 5%;
+}
+.FAHedder-Content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #282525;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.FAHedder-Button-Container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.FAHedder-Play-Bootom-pic {
+  margin-top: 10%;
+  position: relative;
+}
+.FAHedder-Bottom-Imge {
+  position: relative;
+  margin-top: 05%;
+}
+.FAHedder-Play-Button-Container {
+  z-index: +2;
+  position: absolute;
+  margin-top: 60%;
+  margin-left: 55%;
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1000px) {
+  .FAHedder-Play-Bootom-pic {
+    margin-top: 20%;
+    position: relative;
+  }
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 560px) {
+  .FAHedder-Intro {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .FAHedder-Content {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .FAHedder-Play-Bootom-pic {
+    display: none;
+  }
+  .FAHedder-Button-Container {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+}

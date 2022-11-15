@@ -1,0 +1,175 @@
+.FA-Below-TopRow {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.FA-Below-TopRow-col1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+.FA-Below-TopRow-Text {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1%;
+}
+.FA-Below-TopRow-text1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: #151515;
+}
+.FA-Below-TopRow-text2 {
+  font-family: "Jost";
+  font-size: 12px;
+  line-height: 12px;
+  color: #878787;
+}
+.FA-Below-TopRow-Pic {
+  border-radius: 50%;
+}
+.Down-Arrow {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 7%;
+}
+
+.FA-Below-Hedder-Part2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10%;
+}
+
+.FA-Below-Hedder-Bag {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.FA-Part-2-Intro {
+  font-family: "Jost";
+  font-size: 18px;
+  line-height: 21px;
+  color: #f92950;
+  margin-bottom: 5%;
+}
+.FA-Part-2-Hedding {
+  white-space: nowrap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #151515;
+  margin-bottom: 5%;
+}
+
+.FA-Below-Hedder-Small-Images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.FA-Below-Hedder-Bag-Content {
+  margin-top: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #5d5d5d;
+}
+.FA-Below-Hedder-Bag-Button-Container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1036px) {
+  .FA-Below-TopRow {
+    grid-template-columns: 50% 50%;
+  }
+  .set3 {
+    display: none;
+  }
+}
+
+/* ======================== */
+@media screen and (max-width: 1000px) {
+  .FA-Below-Hedder-Bag {
+    height: 300px;
+    width: 300px;
+  }
+  .FA-Below-Hedder-Part2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FA-Part-2-Intro {
+    font-size: 10px;
+    line-height: 11px;
+  }
+  .FA-Part-2-Hedding {
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .FA-Below-Hedder-Bag-Content {
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
+
+/* ======================== */
+@media screen and (max-width: 720px) {
+  .FA-Below-Hedder-Part2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 680px) {
+  .FA-Below-TopRow-text1 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .FA-Below-TopRow-text2 {
+    font-size: 9px;
+    line-height: 9px;
+  }
+}
+
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 660px) {
+  .FA-Below-Hedder-Part2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .FA-Below-Hedder-Part2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FA-Below-Hedder-Bag-Button-Container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 600px) {
+  .FA-Below-TopRow {
+    display: flex;
+    justify-content: space-around;
+  }
+  .set2 {
+    display: none;
+  }
+}
