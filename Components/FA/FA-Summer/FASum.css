@@ -1,5 +1,6 @@
 .FA-Sum-Body {
-  height: 100vh;
+  height: fit-content;
+  margin-bottom: 2rem;
 }
 .FA-Sum-Intro {
   font-family: "Roboto";

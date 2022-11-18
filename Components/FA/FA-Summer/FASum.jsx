@@ -84,7 +84,7 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Felted Wool Hat</div>
+            <div className="FA-NA-Image-Title">Yellow Reserved Hoodie</div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>
@@ -114,7 +114,7 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Felted Wool Hat</div>
+            <div className="FA-NA-Image-Title">T-shirts Coupe Amincie</div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>
@@ -144,7 +144,7 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Felted Wool Hat</div>
+            <div className="FA-NA-Image-Title">Textured vegan leather</div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>
@@ -174,7 +174,9 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Feltccccccccccccccccccccccccccccccccccced Wool Hat</div>
+            <div className="FA-NA-Image-Title">
+              Blazer Coupe Amincie
+            </div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>
@@ -206,7 +208,7 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Felted Wool Hat</div>
+            <div className="FA-NA-Image-Title">Soft Flap Crossbody</div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>
@@ -236,7 +238,7 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Felted Wool Hat</div>
+            <div className="FA-NA-Image-Title">Textured vegan leather</div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>
@@ -266,7 +268,7 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Felted Wool Hat</div>
+            <div className="FA-NA-Image-Title">Stripe Panel Down-filled</div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>
@@ -296,7 +298,7 @@ function FASum() {
             />
           </div>
           <div className="FA-NA-Part2">
-            <div className="FA-NA-Image-Title">Felted Wool Hat</div>
+            <div className="FA-NA-Image-Title">Conte of Florence Jarod</div>
             <div className="FA-NA-Prices">
               <div className="FA-NA-Original-Price">89.00$</div>
               <div className="FA-NA-Offer-Price">80.00$</div>

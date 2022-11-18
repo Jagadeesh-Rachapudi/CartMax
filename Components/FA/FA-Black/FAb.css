@@ -1,0 +1,43 @@
+.FA-B-Body {
+  position: relative;
+  height: 120vh;
+}
+.FA-B-Part1 {
+  position: relative;
+  height: 80vh;
+  background-color: #252525;
+}
+.FA-B-Play-Container {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.FA-B-Hedding {
+  font-family: "Jost";
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.FA-B-Logos-BG {
+  z-index: +1;
+  position: absolute;
+  padding: 3rem;
+  margin-top: -5rem;
+  width: 70%;
+  margin-left: 15%;
+  margin-left: 15%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #f2f2f2;
+}
+/* ============================================ */
+@media screen and (max-width: 1060px) {
+  .FA-B-Logos-BG {
+    width: 100%;
+    margin-left: 0;
+    margin-top: -2rem;
+    margin-right: 0;
+    padding: 1.5rem;
+  }
+}

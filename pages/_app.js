@@ -28,6 +28,11 @@ import "../Components/FA/FA-Below-Hedder/FABelowHedder.css";
 import "../Components/FA/FA-Category/FACategory.css";
 import "../Components/FA/FA-NA/FANA.css";
 import "../Components/FA/FA-Summer/FASum.css";
+import "../Components/FA/FA-Black/FAb.css";
+import "../Components/FA/FA-D/FAD.css";
+import "../Components/FA/FA-Timmer/FATimer.css";
+import "../Components/FA/FA-News/FANews.css";
+import "../Components/FA/FA-Footer/FAFooter.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -1,0 +1,88 @@
+.FA-Timmer-Body {
+  margin-top: 5rem;
+  background-color: #cecece;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.FA-Timmer-Timmer {
+  display: flex;
+  justify-content: center;
+}
+.FA-Timmer-Play {
+  margin-top: 5rem;
+  background-color: #f92950;
+  border-radius: 50%;
+}
+.FA-Timmer-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+  letter-spacing: -0.02em;
+  color: #1e1e1e;
+  text-align: center;
+  margin-top: 2rem;
+}
+.FA-Timmer-Content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-right: 1rem;
+  color: #585858;
+  margin-top: 2rem;
+}
+.FA-Timer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.FA-Timmer-Button-Container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.FA-Timmer-Button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  border: none;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  letter-spacing: -0.02em;
+  color: #fefefe;
+  background-color: #f92950;
+}
+
+.FA-Timmer-Button:hover {
+  background-color: #980a24;
+}
+
+/* ============================ */
+@media screen and (max-width: 947px) {
+  .FA-Timmer-Body {
+    margin-top: 5rem;
+    background-color: #cecece;
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+}
+/* ============================ */
+@media screen and (max-width: 500px) {
+  .FA-Timmer-Body {
+    margin-top: 5rem;
+    background-color: #cecece;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
