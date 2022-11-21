@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../styles/globals.css";
 
 import "../Utils/Book_It_Now/Book_It_Now.css";
+import "../Utils/Electronic_Cards/ElectronicCards.css";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -33,6 +34,14 @@ import "../Components/FA/FA-D/FAD.css";
 import "../Components/FA/FA-Timmer/FATimer.css";
 import "../Components/FA/FA-News/FANews.css";
 import "../Components/FA/FA-Footer/FAFooter.css";
+
+import "../Components/E/E-TopRibbon/ETopRibbon.css";
+import "../Components/E/E-Navbar/ENavBar.css";
+import "../Components/E/E-Hedder/EHedder.css";
+import "../Components/E/E-BSales/EBSales.css";
+import "../Components/E/E-Timmer/ET.css";
+import "../Components/E/EL/EL.css";
+import "../Components/E/EOFF/Eoff.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

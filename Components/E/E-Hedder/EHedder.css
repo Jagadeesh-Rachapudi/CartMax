@@ -1,0 +1,310 @@
+.E-Hedder-Body {
+  
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FE-Hedder-bg.png?alt=media&token=646b7a9e-c858-4626-8759-a9b735678b58");
+  background-repeat: no-repeat;
+}
+.E-Hedder-Search {
+  background-color: #fed700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.E-Hedder-Icon {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 2rem;
+}
+.E-Hedder-Search-Texts {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.E-Hedder-Search-Text1 {
+  white-space: nowrap;
+  font-family: "Jost";
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.E-Hedder-Search-Text2 {
+  white-space: nowrap;
+  font-family: "Jost";
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: none;
+  color: #000000;
+}
+.E-Hedder-Forms {
+  display: flex;
+  flex-direction: row;
+}
+.E-Hedder-Form-input {
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
+  border: none;
+  margin-top: 0.5rem;
+  height: 2rem;
+  width: 20rem;
+  min-width: fit-content;
+  border-radius: 19px 0 0 19px;
+}
+.E-Hedder-Form-Button {
+  min-width: fit-content;
+  width: 25%;
+  background-color: #f92950;
+  border: none;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0 19px 19px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.E-Hedder-Right-Icons {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+}
+.E-Hedder-Right-Icon {
+  margin-right: 0.5rem;
+}
+.E-Hedder-All-Dep {
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  column-gap: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.E-Hedder-Table {
+  white-space: nowrap;
+  width: 17%;
+}
+.E-Hedder-Table-Hedder {
+  width: 110%;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #fed700;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  color: #333e48;
+}
+.E-Hedder-Table-Text {
+  font-family: "Jost";
+  font-size: 15px;
+  line-height: 37px;
+  color: #333e48;
+}
+.E-Hedder-Slide {
+  background-color: #ececec;
+  width: 100%;
+}
+
+.E-Hedder-Slide-Content {
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+
+.E-Hedder-Slide-Offer {
+  font-family: "Jost";
+  font-size: 12px;
+  line-height: 14px;
+  padding: 0.5rem;
+  padding-top: 0.6rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: fit-content;
+  background-color: #fed700;
+  color: #282828;
+}
+
+.E-Hedder-Slide-Hedding {
+  margin-top: 1rem;
+  font-family: "Jost";
+  font-size: 50px;
+  line-height: 50px;
+  color: #282828;
+}
+.E-Hedder-Slide-Price {
+  margin-top: 1rem;
+  font-family: "Jost";
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.01em;
+  color: #282828;
+  margin-bottom: 1rem;
+}
+.E-Hedder-Slide-Button {
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  padding: 0.5rem;
+  padding-left: 0.7;
+  padding-right: 0.7;
+  background-color: #fed700;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #020202;
+}
+.E-Hedder-DropDown {
+  display: none;
+}
+
+.E-Hedder-Feature-Container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.E-Hedder-Features {
+  display: flex;
+  flex-direction: row;
+}
+.E-Hedder-Feature-Text {
+  margin-left: 0.5rem;
+}
+.E-Hedder-Feature-Text-Hedding {
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333e48;
+}
+.E-Hedder-Feature-Text-Content {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333e48;
+}
+
+/* ============================================ */
+@media screen and (max-width: 1060px) {
+  .E-Hedder-F-4 {
+    display: none;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 830px) {
+  .E-Hedder-F-3 {
+    display: none;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 530px) {
+  .E-Hedder-F-2 {
+    display: none;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 1042px) {
+  .E-Hedder-Slide-Hedding {
+    white-space: nowrap;
+    margin-top: 1rem;
+    font-family: "Jost";
+    font-size: 30px;
+    line-height: 30px;
+    color: #282828;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 960px) {
+  .E-Hedder-Icon {
+    margin-right: 0rem;
+  }
+}
+/* ============================================ */
+@media screen and (max-width: 909px) {
+  .E-Hedder-Search-Texts {
+    display: none;
+  }
+  .E-Hedder-Icon {
+    display: none;
+  }
+  .E-Hedder-Form-input {
+    margin-left: 2%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 810px) {
+  .E-Hedder-All-Dep {
+    flex-direction: column;
+  }
+  .E-Hedder-Slide-Content {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+  }
+  .E-Hedder-Table {
+    display: none;
+  }
+  .E-Hedder-DropDown {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 2rem;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 641px) {
+  .E-Hedder-Form-input {
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+    border: none;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 10rem;
+    min-width: fit-content;
+    border-radius: 19px 0 0 19px;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 500px) {
+  .E-Hedder-Slide-Hedding {
+    font-size: 20px;
+  }
+  .E-Hedder-Slide-Price {
+    font-size: 15px;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 460px) {
+  .E-Hedder-Right-Icons {
+    display: none;
+  }
+  .E-Hedder-Search {
+    width: 100%;
+  }
+  .E-Hedder-Forms {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

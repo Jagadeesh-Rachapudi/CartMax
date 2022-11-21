@@ -1,0 +1,135 @@
+.ET-Body {
+  background-color: #c6c6c6;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.ET-Boxes {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-left: 30%;
+  margin-bottom: 10rem;
+}
+.ET-Box {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.ET-Part2-Body {
+  margin-top: 10rem;
+}
+
+.ET-Part2-Intro {
+  background-color: white;
+  font-family: "Jost";
+  font-size: 12.997px;
+  line-height: 15px;
+  color: #020202;
+  width: fit-content;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  border-radius: 15px 15px 15px 15px;
+}
+.ET-Part2-Hedding {
+  margin-top: 1rem;
+  white-space: nowrap;
+  margin-bottom: 1rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  color: #1a1a1a;
+}
+
+.ET-Part2-Price {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+.ET-Part2-Offer-Price {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+}
+
+.ET-Part2-Original-Price {
+  margin-top: 0.4rem;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: line-through;
+  color: #787878;
+}
+.ET-Part2-Tag {
+  margin-top: 1rem;
+  font-family: "Jost";
+  font-size: 16.559px;
+  line-height: 19px;
+  color: #1a1a1a;
+}
+.ET-Timer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+.ET-hrs-Indicator {
+  margin-left: 0.55rem;
+  margin-bottom: 0.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #383838;
+}
+.ET-Hrs {
+  background-color: white;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+.ET-Current-Hrs {
+  margin-left: 0.9rem;
+  margin-bottom: auto;
+}
+.ET-Button {
+  margin-top: 1rem;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  background-color: black;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.ET-Button:hover {
+  background-color: rgb(41, 41, 41);
+}
+/* ============================================ */
+@media screen and (max-width: 820px) {
+  .ET-Body {
+    background-color: #c6c6c6;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+/* ============================================ */
+@media screen and (max-width: 820px) {
+  .ET-Boxes {
+    display: none;
+  }
+  .ET-Button {
+   margin-bottom: 10rem;
+  }
+}

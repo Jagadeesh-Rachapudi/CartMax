@@ -1,0 +1,124 @@
+.E-Nav-Container {
+  display: flex;
+  flex-direction: row;
+}
+.E-Navbarcontainer {
+  display: flex;
+  width: 70%;
+  background-color: white;
+}
+.E-Navbarcontainer > img {
+  margin-left: 15%;
+  background-color: white;
+}
+.E-Navbar {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: fit-content;
+  background-color: transparent;
+}
+
+.E-Nav-Links {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.E-Call-Icon {
+  margin-right: 1rem;
+  margin-top: 1rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+.E-Customer-Detailes {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  float: right;
+  color: #333e48;
+}
+.E-RightIcons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1085px) {
+  .E-Navbarcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .E-Navbar {
+    width: 22%;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .E-NavLogo {
+    padding-top: 0rem;
+    margin: auto;
+  }
+}
+
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 860px) {
+  .E-Navbarcontainer {
+    display: flex;
+    width: 50%;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 576px) {
+  .E-Navbarcontainer > img {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .E-NavLogo {
+    max-width: 110px;
+    object-fit: contain;
+  }
+  .E-RightIcons {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0rem;
+  }
+  .E-Call-Icon {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .E-Customer-Detailes {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 405px) {
+  .E-RightIcons {
+    display: none;
+  }
+  .E-Navbarcontainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .E-Navbarcontainer > img {
+    float: right;
+    background-color: white;
+  }
+}
