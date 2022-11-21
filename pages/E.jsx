@@ -6,6 +6,7 @@ import ET from "../Components/E/E-Timmer/ET";
 import ETopRibbon from "../Components/E/E-TopRibbon/ETopRibbon";
 import EL from "../Components/E/EL/EL";
 import Eoff from "../Components/E/EOFF/Eoff";
+import FAFooter from "../Components/FA/FA-Footer/FAFooter";
 
 function E() {
   return (
@@ -17,6 +18,7 @@ function E() {
       <ET />
       <EL />
       {/* <Eoff/> */}
+      <FAFooter />
     </div>
   );
 }
