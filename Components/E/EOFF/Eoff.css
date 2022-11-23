@@ -1,6 +1,7 @@
 .Eoff-Body {
-  height: 100vh;
-  background-color: #fbf9f9;
+ margin-bottom: 8rem;
+  background-color: #1b0202;
+  padding-bottom: 8rem;
 }
 .Eoff-Intro {
   padding-top: 5rem;
@@ -17,6 +18,7 @@
   line-height: 41px;
   color: #191919;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .Eoff-Contents {
   margin-left: auto;
@@ -27,12 +29,32 @@
   column-gap: 2rem;
 }
 .Eoff-Content1 {
-  width: 12rem;
-  background-color: rgb(172, 23, 23);
+  margin-top: auto;
+  min-height: 21rem;
+  margin-bottom: auto;
+  background-color: #ffffff;
 }
-
+.Eoff-Content2 {
+  margin-top: auto;
+  min-height: 21rem;
+  margin-bottom: auto;
+  background-color: #ffffff;
+}
+.Eoff-Content3 {
+  margin-top: auto;
+  min-height: 21rem;
+  margin-bottom: auto;
+  background-color: #ffffff;
+}
+.Eoff-pic3 {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
 .Eoff-Content1 > img {
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .Eoff-Content-Hedding {
@@ -43,4 +65,26 @@
   line-height: 35px;
   text-align: center;
   color: #191919;
+}
+.Eoff-Content-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #5a5a5a;
+}
+/* ============================================ */
+@media screen and (max-width: 872px) {
+  .Eoff-Content3 {
+    display: none;
+  }
+}
+/* ============================================ */
+@media screen and (max-width: 566px) {
+  .Eoff-Content2 {
+    display: none;
+  }
 }

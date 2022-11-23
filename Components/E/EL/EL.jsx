@@ -170,31 +170,31 @@ function EL() {
         </div>
       </div>
       <div className="El-Last-Row">
-        <div className="El-Prod5">
+        <div className="El-Prod9">
           <ElectronicCards
             source="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FEBS-PROD-12.png?alt=media&token=6ea8425c-ecaa-4c66-9526-3195046eabd7"
             bar="true"
           />
         </div>
-        <div className="El-Prod3">
+        <div className="El-Prod10">
           <ElectronicCards
             source="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FE-White-Watch.png?alt=media&token=a3a82cb4-3e5a-48bd-92b4-e4a6156eb516"
             bar="true"
           />
         </div>
-        <div className="El-Prod2">
+        <div className="El-Prod11">
           <ElectronicCards
             source="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FE-EarPhones.png?alt=media&token=028642dc-441b-4fb3-bd89-d02b86c56153"
             bar="true"
           />
         </div>
-        <div className="El-Prod1">
+        <div className="El-Prod12">
           <ElectronicCards
             source="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FEL-p1.png?alt=media&token=65641062-e9a4-4391-8139-76374bdac4e4"
             bar="true"
           />
         </div>
-        <div className="El-Prod3">
+        <div className="El-Prod13">
           <ElectronicCards
             source="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FE-White-Watch.png?alt=media&token=a3a82cb4-3e5a-48bd-92b4-e4a6156eb516"
             bar="true"

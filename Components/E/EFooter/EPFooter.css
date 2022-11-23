@@ -1,0 +1,85 @@
+.EFooter-Body {
+  height: 100vh;
+}
+.EFooter-Part1 {
+  background-color: #23292d;
+}
+.EFooter-part1-body {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 20% 15% 15% 20%;
+}
+.EFooter-Logo {
+  padding-top: 2rem;
+}
+.EFooter-Logo > img {
+  margin-bottom: 1rem;
+}
+.EFooter-logo-Content {
+  width: 70%;
+  padding-bottom: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ededed;
+}
+.EFooter-Button-Conatiner {
+  margin-bottom: 3rem;
+}
+.EF-Footer-Button {
+  background-color: #fed700;
+  border: none;
+  font-family: "Jost";
+  font-size: 15px;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 3rem 3rem 3rem 3rem;
+  line-height: 18px;
+  color: #23292d;
+}
+.EFooter-Link-Hedding {
+  margin-top: 3rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 33px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.EFooter-Link-Container {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.EFooter-Link {
+  width: fit-content;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.EFooter-Link:hover {
+  color: #c8c0c0;
+}
+.EFooter-Link-Icon-Container {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+.EFooter-Icon {
+  width: fit-content;
+  border-radius: 50%;
+  background-color: #fed700;
+}

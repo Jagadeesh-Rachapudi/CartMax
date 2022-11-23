@@ -6,6 +6,7 @@ import "../styles/globals.css";
 
 import "../Utils/Book_It_Now/Book_It_Now.css";
 import "../Utils/Electronic_Cards/ElectronicCards.css";
+import "../Utils/HandPicks/HandPicks.css";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -42,6 +43,8 @@ import "../Components/E/E-BSales/EBSales.css";
 import "../Components/E/E-Timmer/ET.css";
 import "../Components/E/EL/EL.css";
 import "../Components/E/EOFF/Eoff.css";
+import "../Components/E/EHP/EHP.css";
+import '../Components/E/EFooter/EPFooter.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

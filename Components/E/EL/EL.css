@@ -189,6 +189,20 @@
 }
 
 /* ============================================ */
+@media screen and (max-width: 1170px) {
+  .El-Prod13 {
+    display: none;
+  }
+}
+
+/* ============================================ */
+@media screen and (max-width: 940px) {
+  .El-Prod12 {
+    display: none;
+  }
+}
+
+/* ============================================ */
 @media screen and (max-width: 1042px) {
   .EL-ads {
     display: none;
@@ -203,11 +217,17 @@
   .El-Prod8 {
     display: none;
   }
+  .El-Prod11 {
+    display: none;
+  }
 }
 
 /* ============================================ */
 @media screen and (max-width: 500px) {
   .El-Prod7 {
+    display: none;
+  }
+  .El-Prod10 {
     display: none;
   }
 }
