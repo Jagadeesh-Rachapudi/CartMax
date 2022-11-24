@@ -1,0 +1,101 @@
+.F-Hedder-Body {
+  background-color: #c4c4c4;
+  /* height: 100vh; */
+  position: relative;
+}
+.F-Hedder-Content {
+  padding-top: 5rem;
+  margin-left: 10rem;
+  padding-bottom: 10rem;
+}
+.F-Hedder-Intro {
+  font-family: "Jost";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+  color: #f76954;
+  margin-bottom: 0.5rem;
+}
+.F-Hedder-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  color: #141412;
+  margin-bottom: 1rem;
+}
+.F-Hedder-Hedding-Text {
+  width: 28rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: #292929;
+}
+.F-Hedder-Button-Container {
+  margin-top: 1rem;
+}
+.F-Hedder-Button {
+  border: none;
+  background-color: #f76954;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  border-radius: 1.4rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.918px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.F-Hedder-Add-Container {
+  z-index: +1;
+  margin-top: -3.5rem;
+  position: absolute;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.F-Hedder-Add {
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid rgb(218, 216, 216);
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 947px) {
+  .F-Hedder-Add-Container {
+    margin-top: -2.5rem;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 733px) {
+  .F-Hedder-Add-Container {
+    margin-top: -1.5rem;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 600px) {
+  .F-Hedder-Content {
+    padding-top: 5rem;
+    margin-left: 5rem;
+    padding-bottom: 10rem;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 539px) {
+  .F-Hedder-Intro {
+    line-height: 8px;
+    letter-spacing: 0 rem;
+  }
+  .F-Hedder-Hedding-Text {
+    width: 15rem;
+  }
+  .F-Hedder-Hedding {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}

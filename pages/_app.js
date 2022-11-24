@@ -44,7 +44,11 @@ import "../Components/E/E-Timmer/ET.css";
 import "../Components/E/EL/EL.css";
 import "../Components/E/EOFF/Eoff.css";
 import "../Components/E/EHP/EHP.css";
-import '../Components/E/EFooter/EPFooter.css'
+import "../Components/E/EFooter/EPFooter.css";
+
+import "../Components/F/F-NAVBAR/FNAVBAR.css";
+import "../Components/F/F-Hedder/FHedder.css";
+import "../Components/F/F-Living/FL.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
