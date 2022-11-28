@@ -8,6 +8,7 @@ import "../Utils/Book_It_Now/Book_It_Now.css";
 import "../Utils/Electronic_Cards/ElectronicCards.css";
 import "../Utils/HandPicks/HandPicks.css";
 import "../Utils/FB-Items-1/FBItems.css";
+import "../Utils/NewsArticle/NewsArticle.css";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -53,6 +54,11 @@ import "../Components/F/F-Living/FL.css";
 import "../Components/F/F-Items/FItems.css";
 import "../Components/F/FB/FB.css";
 import "../Components/F/F-Lamp/FLamp.css";
+import "../Components/F/FLatest/FLatest.css";
+import "../Components/F/FStar/FStar.css";
+import "../Components/F/FInt/Fint.css";
+import "../Components/F/FAds/FAds.css";
+import "../Components/F/FFooter/FFooter.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

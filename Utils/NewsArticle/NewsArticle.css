@@ -1,0 +1,76 @@
+.NewsA-Body {
+  position: relative;
+}
+.NewsA-Image {
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+}
+.NewsA-Date {
+  opacity: 0.8;
+  position: absolute;
+  z-index: +1;
+  background-color: #f76954;
+  width: fit-content;
+  padding: 1rem;
+  margin-top: -2.5rem;
+  margin-left: 1rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 15px 15px 15px 15px;
+  color: #ffffff;
+}
+.NewsA-Hedding {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  max-width: 25rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+  color: #0c0c0c;
+}
+.NewsA-Intro {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 0.5rem;
+  color: #f76954;
+}
+.NewsA-Content {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  max-width: 23rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #747474;
+}
+.NewsA-Readmore {
+  font-family: "Jost";
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  color: #4e4e4e;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 400px) {
+  .NewsA-Image {
+    height: 350px;
+    height: 200px;
+  }
+  .NewsA-Body {
+    margin-left: 2rem;
+  }
+}
