@@ -1,0 +1,34 @@
+.FBItems-Image-Conatiner,
+.FBItems-Image {
+  position: relative;
+}
+.FBItems-Tag {
+  position: absolute;
+  z-index: +1;
+  margin-top: -18rem;
+  margin-left: 0.5rem;
+  background-color: #f76954;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.875px;
+  line-height: 12px;
+  color: #ffffff;
+  border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+}
+.FBItems-Title {
+  font-family: "Jost";
+  font-size: 18px;
+  line-height: 21px;
+  color: #4e4e4e;
+  margin-top: 1rem;
+}
+.FBItems-Price {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #272727;
+}

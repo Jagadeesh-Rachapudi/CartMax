@@ -1,0 +1,124 @@
+.FItems-Body {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.FItem-1 {
+  background-color: #f6fbff;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.FItem-2 {
+  background-color: #fff9f2;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.FItem-3 {
+  background-color: #f1f2f4;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.FItem-1-Part1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.FItems-Intro {
+  margin-bottom: 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f76954;
+  margin-left: 1.5rem;
+}
+.FItems-Hedding {
+  margin-left: 1.5rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 2rem;
+}
+.FItem-Link {
+  margin-left: 1.5rem;
+  font-family: "Jost";
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4e4e4e;
+}
+.FItem-Link:hover {
+  color: #202020;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1395px) {
+  .FItems-Intro {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .FItems-Hedding {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1142px) {
+  .FItems-Hide-3 {
+    display: none;
+  }
+  .FItems-Intro {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .FItems-Hedding {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 918px) {
+  .FItems-Intro {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .FItems-Hedding {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 753px) {
+  .FItems-Hide-2 {
+    display: none;
+  }
+  .FItems-Intro {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .FItems-Hedding {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 448px) {
+  .FItems-Intro {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .FItems-Hedding {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}

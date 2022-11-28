@@ -5,13 +5,13 @@
   margin-right: auto;
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 200vh;
+  height: fit-content;
 }
 .Fl-Part1 {
   margin-top: 3rem;
   position: relative;
   min-width: 12rem;
-}  
+}
 .FL-Links {
   display: flex;
   flex-direction: row;
@@ -101,6 +101,17 @@
     flex-direction: column-reverse;
   }
   .Fl-Part2 {
-  display: none;
+    display: none;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 614px) {
+  .FL-LightBox {
+    height: 55rem;
+  }
+  .FL-Chair {
+    z-index: unset;
+    margin-left: 35%;
+    margin-top: 38rem;
   }
 }
