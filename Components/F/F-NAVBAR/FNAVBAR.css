@@ -1,104 +1,104 @@
-.Navbarcontainer {
+.F-Navbarcontainer {
   display: flex;
   width: 100%;
-  background-color: #f8f9fa;
+  background-color: #c4c4c4;
 }
-.Navbarcontainer > img {
+.F-Navbarcontainer > img {
   margin-left: 15%;
-  background-color: #f8f9fa;
+  background-color: #c4c4c4;
 }
-.HFNavbar {
+.F-Navbar {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
   width: 100%;
-  background-color: transparent;
+  background-color: #c4c4c4;
 }
-.Navlinks {
+.F-Navlinks {
   margin-left: 23%;
   gap: 5rem;
 }
-.Navlink {
+.F-Navlink {
   padding-left: 5rem;
 }
-.HFnavSearchicon {
+.F-navSearchicon {
   margin-left: 39%;
   border: none;
-  background-color: transparent;
+  background-color: #c4c4c4;
 }
-.RightIcons {
+.F-RightIcons {
   display: flex;
   flex-direction: row;
 }
-.Navrighticon {
+.F-Navrighticon {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
   padding-left: 1rem;
 }
-.lasticon {
+.F-lasticon {
   margin-right: 15rem;
 }
-.Icons {
+.F-Icons {
   display: none;
 }
 /*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
 
 @media screen and (max-width: 1085px) {
-  .Navbarcontainer {
+  .F-Navbarcontainer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
   }
-  .HFNavbar {
+  .F-Navbar {
     width: 22%;
     padding: 0;
     margin-right: 0;
     margin-left: 0;
   }
 
-  .NavLogo {
+  .F-NavLogo {
     padding-top: 0rem;
     margin: auto;
   }
-  .RightIcons {
+  .F-RightIcons {
     display: none;
   }
-  .Icons {
+  .F-Icons {
     display: flex;
     flex-direction: row;
     margin-right: 5rem;
   }
-  .SearchIcon {
+  .F-SearchIcon {
     border: none;
     background-color: transparent;
   }
-  .Icon {
+  .F-Icon {
     padding-left: 1.25rem;
   }
 }
 /*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
 
 @media screen and (max-width: 576px) {
-  .Navbarcontainer > img {
+  .F-Navbarcontainer > img {
     margin-left: 0%;
-    background-color: #f8f9fa;
+    background-color: #c4c4c4;
   }
-  .NavLogo {
+  .F-NavLogo {
     max-width: 110px;
     object-fit: contain;
   }
-  .Icons {
+  .F-Icons {
     display: flex;
     flex-direction: row;
     margin-right: 2rem;
   }
-  .SearchIcon {
+  .F-SearchIcon {
     border: none;
-    background-color: transparent;
+    background-color: #c4c4c4;
   }
-  .Icon {
+  .F-Icon {
     padding-left: 0.25rem;
   }
 }
