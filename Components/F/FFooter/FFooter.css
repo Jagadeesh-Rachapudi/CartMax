@@ -55,23 +55,66 @@
   line-height: 35px;
   color: #828282;
 }
-.FFooter-Hide2 {
+.FFooter-H2 {
   display: none;
 }
-
-/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
-@media screen and (max-width: 1156px) {
-  .FFooter-Hide1 {
+.FFooter-H5 {
+  width: fit-content;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Footer-Part1-Content-hide {
+  margin-top: 1rem;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  color: #828282;
+  margin-bottom: 1rem;
+}
+.FFooter-Container-H6 {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.FFooter-H99 {
+  display: none;
+}
+.FFooter-H99 {
+  margin-top: 1rem;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1160px) {
+  .FFooter-H1 {
     display: none;
   }
-  .FFooter-Hide2 {
-    display: grid;
+  .FFooter-H99 {
+    display: block;
   }
-  .FFooter-Container-hide {
-    display: grid;
-    width: 85%;
+  .FFooter-H2 {
+    display: flex;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 730px) {
+  .FFooter-Container-H6 {
+    display: flex;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 33% 33% 33%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .FFooter-H4 {
+    width: fit-content;
   }
 }

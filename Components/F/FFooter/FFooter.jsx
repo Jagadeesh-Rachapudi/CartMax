@@ -4,7 +4,7 @@ import { AiOutlineMail, AiOutlineCheckCircle } from "react-icons/ai";
 function FFooter() {
   return (
     <div className="FFooter-Body">
-      <div className="FFooter-Container FFooter-Hide1 ">
+      <div className="FFooter-Container FFooter-H1 ">
         <div className="FFooter-Part1">
           <div className="FFooter-Logo-image-Conatin">
             <img
@@ -102,10 +102,32 @@ function FFooter() {
           </div>
         </div>
       </div>
-      <div className="FFooter-Hide2">
-        <div className="FFooter-Part1-hideone"></div>
-        <div className="FFooter-Container-hide">
-          <div className="FFooter-Part2">
+      <div className="FFooter-H2">
+        <div className="FFooter-H5">
+          <div className="FFooter-Logo-image-Conatin">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FLogo.png?alt=media&token=3993c197-c111-4ed0-a13c-8bb95ba7a7d4"
+              width="150"
+              height="50"
+            />
+          </div>
+          <div className="Footer-Part1-Content-hide">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt tetur adipisicing elit, sed do eiusmo
+            Lorem ipsum dolor sit amet, consectetur adipisicing
+          </div>
+          <div className="FFooter-Socials">
+            <BsFacebook className="FFooter-Social" />
+            <BsTwitter className="FFooter-Social" />
+            <BsYoutube className="FFooter-Social" />
+            <BsInstagram className="FFooter-Social" />
+            <AiOutlineMail className="FFooter-Social" />
+          </div>
+        </div>
+      </div>
+      <div className="FFooter-H99">
+        <div className="FFooter-Container-H6">
+          <div className="FFooter-H4">
             <div className="FFooter-Hedding">INFORMATIONS</div>
             <div className="FFooter-Links">
               <div className="FFooter-Link">
@@ -130,7 +152,7 @@ function FFooter() {
               </div>
             </div>
           </div>
-          <div className="FFooter-Part3">
+          <div className="FFooter-H6">
             <div className="FFooter-Hedding">POLICES</div>
             <div className="FFooter-Links">
               <div className="FFooter-Link">
@@ -155,7 +177,7 @@ function FFooter() {
               </div>
             </div>
           </div>
-          <div className="FFooter-Part4">
+          <div className="FFooter-H7">
             <div className="FFooter-Hedding">COVID-19 Update</div>
             <div className="FFooter-Links">
               <div className="FFooter-Link">
