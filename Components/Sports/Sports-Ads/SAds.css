@@ -1,0 +1,113 @@
+.SAds-Body {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.SAds-1 {
+  background-color: #2b2929;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 3rem;
+}
+span {
+  background: linear-gradient(90deg, #fe6066 0%, #e0c05b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10rem;
+}
+.SAds-Hedding1 {
+  margin-left: 10rem;
+  width: 21rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49.211px;
+  line-height: 55px;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+.SAds-2 {
+  background-color: #565656;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 3rem;
+}
+.SAds-Hedding2 {
+  margin-left: 10rem;
+  width: 22rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49.211px;
+  line-height: 55px;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1024px) {
+  .SAds-Hedding2 {
+    margin-left: 5rem;
+  }
+  .SAds-Hedding1 {
+    margin-left: 5rem;
+  }
+  span {
+    margin-left: 5rem;
+  }
+}
+
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 872px) {
+  .SAds-Hedding2 {
+    margin-left: 1rem;
+  }
+  .SAds-Hedding1 {
+    margin-left: 1rem;
+  }
+  span {
+    margin-left: 1rem;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 741px) {
+  .SAds-Hedding2 {
+    margin-left: 10rem;
+  }
+  .SAds-Hedding1 {
+    margin-left: 10rem;
+  }
+  span {
+    margin-left: 10rem;
+  }
+  .SAds-Body {
+    height: 150vh;
+    grid-template-columns: 1fr;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 516px) {
+  .SAds-Hedding2 {
+    margin-left: 5rem;
+  }
+  .SAds-Hedding1 {
+    margin-left: 5rem;
+  }
+  span {
+    margin-left: 5rem;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 434px) {
+  .SAds-Hedding2 {
+    margin-left: 1rem;
+  }
+  .SAds-Hedding1 {
+    margin-left: 1rem;
+  }
+  span {
+    margin-left: 1rem;
+  }
+}

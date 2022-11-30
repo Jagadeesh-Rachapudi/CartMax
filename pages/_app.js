@@ -9,6 +9,7 @@ import "../Utils/Electronic_Cards/ElectronicCards.css";
 import "../Utils/HandPicks/HandPicks.css";
 import "../Utils/FB-Items-1/FBItems.css";
 import "../Utils/NewsArticle/NewsArticle.css";
+import "../Utils/Shoes/Shoes.css";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -59,6 +60,14 @@ import "../Components/F/FStar/FStar.css";
 import "../Components/F/FInt/Fint.css";
 import "../Components/F/FAds/FAds.css";
 import "../Components/F/FFooter/FFooter.css";
+
+import "../Components/Sports/Sports-Nav/SNav.css";
+import "../Components/Sports/Sports-Ads/SAds.css";
+import "../Components/Sports/Sports-Products/SP.css";
+import "../Components/Sports/Sports-Black/SB.css";
+import "../Components/Sports/Sports-You/SY.css";
+import "../Components/Sports/Sport-2/S2.css";
+import "../Components/Sports/Sports-Footer/SF.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
