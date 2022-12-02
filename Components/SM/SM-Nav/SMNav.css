@@ -1,0 +1,272 @@
+.SMNav-Body {
+  background-color: #232f3e;
+}
+.SMNav-TopRibbon {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  font-family: "Jost";
+  font-size: 15px;
+  line-height: 18px;
+  color: #b4b4b4;
+}
+.SMNav-TopRibbon-1 {
+  margin-left: 10rem;
+}
+.SMNav-TopRibbon-2 {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+.SMNav-Search {
+  width: 80%;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SMNav-Form-Button-Container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.SMNav-Form {
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border: none;
+  height: 2.5rem;
+  width: 30rem;
+  min-width: fit-content;
+  border-radius: 19px 0 0 19px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #888888;
+}
+.SMNav-Form-Button {
+  border: none;
+  height: 2.5rem;
+  background-color: #0170dc;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fefefe;
+  width: 5rem;
+  border-radius: 0 20px 20px 0;
+}
+.SMNav-Cart-Container {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+.SMNav-Cart {
+  margin-top: 0.8rem;
+}
+.SMNav-Cart-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.SMNav-Cart-Price {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #919396;
+}
+.SMNav-Menu {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.SMNav-Conatiner {
+  position: relative;
+}
+.SMNav-Burger-Icon-Container {
+  position: absolute;
+  z-index: +1;
+  display: none;
+}
+.SMNav-Hotline-Container {
+  margin-top: 1rem;
+  display: flex;
+  font-family: "Jost";
+}
+.SMNav-Hotline-Text {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.SMNav-Hotline-Number {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.SMNav-Burger-Icon {
+  margin-right: 0.4rem;
+}
+.DropDown-Link {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #2e2e2e;
+}
+.SMNav-Bell {
+  margin-right: 0.5rem;
+}
+.DropDown-Link:hover {
+  color: #0170dc;
+}
+.SMNav-Nav-Link {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.SMNav-Nav-Link2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #0a0707;
+}
+.SMNav-Nav-Link > .nav-link {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1131px) {
+  .SMNav-TopRibbon-2 {
+    column-gap: 1rem;
+  }
+  .SMNav-TopRibbon-1 {
+    margin-left: 5rem;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 819px) {
+  .SMNav-TopRibbon {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .SMNav-TopRibbon-1 {
+    margin-left: 1rem;
+  }
+  .SMNav-TopRibbon-2 {
+    justify-content: right;
+  }
+}
+
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 730px) {
+  .SMNav-TopRibbon-2 {
+    display: none;
+  }
+  .SMNav-TopRibbon {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1082px) {
+  .SMNav-Form {
+    width: 15rem;
+  }
+}
+
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 792px) {
+  .SMNav-Form {
+    width: 15rem;
+  }
+  .SMNav-Cart-Container {
+    display: none;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 792px) {
+  .SMNav-Search {
+    width: 100%;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 517px) {
+  .SMNav-Form {
+    width: fit-content;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 450px) {
+  .SMNav-Form-Button-Container {
+    display: none;
+  }
+  .SMNav-Search {
+    justify-content: center;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1147px) {
+  .SMNav-Menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 990px) {
+  .SMNav-Burger-Icon-Container {
+    position: absolute;
+    z-index: +1;
+    display: flex;
+    margin-left: 49%;
+    margin-top: 0.8rem;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 689px) {
+  .SMNav-Menu {
+    width: 80%;
+  }
+  .SMNav-Hotline-Container {
+    display: none;
+  }
+  .SMNav-Burger-Icon-Container {
+    position: absolute;
+    z-index: +1;
+    display: flex;
+    margin-left: 80%;
+    margin-top: 0.8rem;
+  }
+}

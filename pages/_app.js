@@ -10,6 +10,9 @@ import "../Utils/HandPicks/HandPicks.css";
 import "../Utils/FB-Items-1/FBItems.css";
 import "../Utils/NewsArticle/NewsArticle.css";
 import "../Utils/Shoes/Shoes.css";
+import "../Utils/SuperMarket/SM.scss";
+import "../Utils/SO/SO.scss";
+import "../Utils/Week/Week.scss";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -68,6 +71,15 @@ import "../Components/Sports/Sports-Black/SB.css";
 import "../Components/Sports/Sports-You/SY.css";
 import "../Components/Sports/Sport-2/S2.css";
 import "../Components/Sports/Sports-Footer/SF.css";
+
+import "../Components/SM/SM-Nav/SMNav.css";
+import "../Components/SM/SM-Hedder/SMHedder.scss";
+import "../Components/SM/SM-Cat/SMCat.scss";
+import "../Components/SM/SM-PP/SMPP.scss";
+import "../Components/SM/SM-F/SMF.scss";
+import "../Components/SM/SMS/SMS.scss";
+import "../Components/SM/SM-Adds/Sa.scss";
+import "../Components/SM/SW/SW.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -3,7 +3,7 @@ import { FaShippingFast } from "react-icons/fa";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { GiReceiveMoney } from "react-icons/gi";
 function Instagram() {
-  return (    
+  return (
     <div className="Instagram-Body">
       <div className="Insta-Intro">JACKET & COAST</div>
       <div className="Insta-Hedding">@Cartmax Instagram</div>
@@ -64,7 +64,7 @@ function Instagram() {
           </div>
         </div>
       </div>
-      <div >
+      <div>
         <img
           src="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/HF%2FInsta%20last%20adds.png?alt=media&token=397fd731-ce84-4806-871e-3ab30cd1a25b"
           className="insta-last-adds"
