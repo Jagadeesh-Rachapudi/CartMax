@@ -80,6 +80,8 @@ import "../Components/SM/SM-F/SMF.scss";
 import "../Components/SM/SMS/SMS.scss";
 import "../Components/SM/SM-Adds/Sa.scss";
 import "../Components/SM/SW/SW.scss";
+import "../Components/SM/SM-BS/SMBS.scss";
+import "../Components/SM/SM-Footer/SMFooter.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
