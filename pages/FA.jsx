@@ -26,7 +26,7 @@ function FA() {
       <FAD />
       <FATimer />
       <FANews />
-      <FAFooter />
+      <FAFooter /> 
     </div>
   );
 }

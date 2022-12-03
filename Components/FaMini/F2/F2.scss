@@ -1,0 +1,44 @@
+.F2-Body {
+  // height: 300vh;
+  .tag {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #f92950;
+    text-align: center;
+  }
+  .title {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #000000;
+    @media screen and (max-width: 506px) {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  .btn-c {
+    margin-top: 2rem;
+    margin-left: 45%;
+    .Button {
+      border: none;
+      padding: 1rem;
+      background-color: #f92950;
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: -0.02em;
+      color: #fefefe;
+      border-radius: 25px;
+    }
+  }
+}

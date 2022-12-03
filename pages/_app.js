@@ -104,6 +104,9 @@ import "../Components/WatchDark/D3/D3.scss";
 import "../Components/WatchDark/D4/D4.scss";
 import "../Components/WatchDark/D5/D5.scss";
 
+import "../Components/FaMini/F1/F1.scss";
+import "../Components/FaMini/F2/F2.scss";
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
