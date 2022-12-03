@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "../styles/globals.css";
+import "../styles/WatchMini.scss";
 
 import "../Utils/Book_It_Now/Book_It_Now.css";
 import "../Utils/Electronic_Cards/ElectronicCards.css";
@@ -14,6 +15,7 @@ import "../Utils/SuperMarket/SM.scss";
 import "../Utils/SO/SO.scss";
 import "../Utils/Week/Week.scss";
 import "../Utils/WatchProduct/WatchProduct.scss";
+import "../Utils/WatchProductDark/WatchProductDark.scss";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -95,6 +97,12 @@ import "../Components/Watch/WC/WC.scss";
 import "../Components/Watch/Watch-Cards/WatchC.scss";
 import "../Components/Watch/W9/W9.scss";
 import "../Components/Watch/WFooter/Wfooter.scss";
+
+import "../Components/WatchDark/DNav/DNav.scss";
+import "../Components/WatchDark/DHedder/DHedder.scss";
+import "../Components/WatchDark/D3/D3.scss";
+import "../Components/WatchDark/D4/D4.scss";
+import "../Components/WatchDark/D5/D5.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
