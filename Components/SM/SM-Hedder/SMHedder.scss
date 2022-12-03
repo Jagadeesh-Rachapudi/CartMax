@@ -1,0 +1,103 @@
+.SMHedder-Body {
+  display: grid;
+  grid-template-columns: 25.5% 74.5%;
+  background-color: #ececec;
+  min-height: 100vh;
+  @media screen and (max-width: 1198px) {
+    display: flex;
+  }
+  @media screen and (max-width: 460px) {
+    min-height: 70vh;
+  }
+  .P1 {
+    @media screen and (max-width: 1198px) {
+      display: none;
+    }
+  }
+  .P2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 858px) {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .p2p1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 5rem;
+      @media screen and (max-width: 898px) {
+        margin-left: 0.5rem;
+      }
+      .tag {
+        font-family: "Jost";
+        font-size: 12.997px;
+        line-height: 15px;
+        width: fit-content;
+        padding: 0.4rem 1rem 0.4rem 1rem;
+        border-radius: 20px 20px 20px 20px;
+        border: 2px solid #0170dc;
+        color: #0170dc;
+        margin-bottom: 1rem;
+      }
+      .Hedding {
+        font-family: "Jost";
+        font-size: 61.985px;
+        line-height: 65px;
+        color: #333e48;
+        max-width: 30rem;
+        @media screen and (max-width: 400px) {
+          font-size: 50px;
+          line-height: 50px;
+        }
+      }
+      .from {
+        font-family: "Jost";
+        font-size: 13.997px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #333e48;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+      }
+      .price {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 36px;
+        color: #333e48;
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+      }
+      .Button {
+        border: none;
+        background-color: #0170dc;
+        width: fit-content;
+        padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        border-radius: 25px 25px 25px 25px;
+        color: #ffffff;
+      }
+    }
+    .p2p2 {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: -5rem;
+      @media screen and (max-width: 460px) {
+        display: none;
+      }
+    }
+  }
+}

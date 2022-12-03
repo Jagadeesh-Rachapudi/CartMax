@@ -1,0 +1,61 @@
+.Wnav-Body {
+  background-color: #161d25;
+  .container {
+    padding-top: 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media screen and (max-width: 1087px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 990px) {
+      width: 80%;
+    }
+    .p2 {
+      .Burger-Container {
+        position: absolute;
+        z-index: +1;
+        display: none;
+        @media screen and (max-width: 990px) {
+          display: flex;
+          margin-top: 2.4rem;
+          margin-left: 9%;
+        }
+      }
+      .Navbar {
+        position: relative;
+        .container {
+          button {
+            max-width: 5rem;
+          }
+        }
+        .Link {
+          background-color: transparent;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #f6f7fb;
+        }
+      }
+    }
+    .p3 {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: row;
+      column-gap: 0.5rem;
+      @media screen and (max-width: 514px) {
+        display: none;
+      }
+      .icon {
+        padding: 0.2rem;
+        background-color: #2a343f;
+        border-radius: 50%;
+      }
+    }
+  }
+}

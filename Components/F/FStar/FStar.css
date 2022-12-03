@@ -1,0 +1,136 @@
+.FStar-Body {
+  margin-bottom: 10rem;
+  position: relative;
+}
+.FStar-Image {
+  width: 100%;
+  position: relative;
+}
+.FStar-Collection {
+  position: absolute;
+  z-index: +1;
+  margin-top: -8rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  border-radius: 50%;
+}
+.FStar-Collection1 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px 0 0 20px;
+}
+.FStar-Collection2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e0dfdc;
+  border-radius: 0 20px 20px 0;
+}
+.FStar-Intro {
+  margin-left: 3rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f76954;
+}
+.FStar-Hedding {
+  width: 70%;
+  margin-left: 3rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+  color: #0c0c0c;
+}
+.FStar-Link {
+  margin-left: 3rem;
+  font-family: "Jost";
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4e4e4e;
+}
+.FStar-Intro2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #f76954;
+}
+.FStar-Hedding2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  color: #0c0c0c;
+}
+.FStar-Link2 {
+  font-family: "Jost";
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  margin-left: 40%;
+  color: #4e4e4e;
+}
+
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1030px) {
+  .FStar-Collection {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 726px) {
+  .FStar-Hedding {
+    width: 85%;
+    max-width: 85%;
+  }
+}
+
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 634px) {
+  .FStar-Hedding {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 476px) {
+  .FStar-Hedding2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .FStar-Collection {
+    margin-top: -5rem;
+  }
+  .FStar-Link2 {
+    margin-left: 25%;
+  }
+  .FStar-Collection {
+    grid-template-columns: 50% 50%;
+  }
+  .FStar-Intro,
+  .FStar-Hedding,
+  .FStar-Link {
+    margin-left: 0.5rem;
+  }
+}

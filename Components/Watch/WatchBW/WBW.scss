@@ -1,0 +1,20 @@
+.WBW-Body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  .black {
+    background-color: #161d25;
+  }
+  .white {
+    background-color: #f8f7f6;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: center;
+    .Container{
+        margin-left: 30%;
+    
+    }
+    
+  }
+}

@@ -1,0 +1,50 @@
+.FInt-Body {
+  height: 100vh;
+}
+.FInt-Intro {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #f76954;
+}
+.FInt-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.FInt-Artciles {
+  margin-top: 4rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1280px) {
+  .Fint-Hide3 {
+    display: none;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 840px) {
+  .Fint-Hide2 {
+    display: none;
+  }
+}
+
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 400px) {
+    .FInt-Article{
+        max-width: 90%;
+    }
+}

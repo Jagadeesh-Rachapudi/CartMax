@@ -1,0 +1,55 @@
+.SW-Body {
+  margin-bottom: 2rem;
+  .tag {
+    margin-top: 22rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: fit-content;
+    border: 2px solid #0170dc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 15px;
+    color: #0170dc;
+  }
+  .title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.01em;
+    color: #333e48;
+  }
+  .Container::-webkit-scrollbar {
+    display: none;
+  }
+  .Container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: center;
+    overflow-x: scroll;
+    margin-bottom: 2rem;
+    @media screen and (max-width: 1089px) {
+      justify-content: unset;
+    }
+  }
+  .img-Container {
+    display: flex;
+    max-width: 50rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    .img {
+      width: 100%;
+    }
+  }
+}

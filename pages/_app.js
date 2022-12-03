@@ -8,6 +8,12 @@ import "../Utils/Book_It_Now/Book_It_Now.css";
 import "../Utils/Electronic_Cards/ElectronicCards.css";
 import "../Utils/HandPicks/HandPicks.css";
 import "../Utils/FB-Items-1/FBItems.css";
+import "../Utils/NewsArticle/NewsArticle.css";
+import "../Utils/Shoes/Shoes.css";
+import "../Utils/SuperMarket/SM.scss";
+import "../Utils/SO/SO.scss";
+import "../Utils/Week/Week.scss";
+import "../Utils/WatchProduct/WatchProduct.scss";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -53,6 +59,35 @@ import "../Components/F/F-Living/FL.css";
 import "../Components/F/F-Items/FItems.css";
 import "../Components/F/FB/FB.css";
 import "../Components/F/F-Lamp/FLamp.css";
+import "../Components/F/FLatest/FLatest.css";
+import "../Components/F/FStar/FStar.css";
+import "../Components/F/FInt/Fint.css";
+import "../Components/F/FAds/FAds.css";
+import "../Components/F/FFooter/FFooter.css";
+
+import "../Components/Sports/Sports-Nav/SNav.css";
+import "../Components/Sports/Sports-Ads/SAds.css";
+import "../Components/Sports/Sports-Products/SP.css";
+import "../Components/Sports/Sports-Black/SB.css";
+import "../Components/Sports/Sports-You/SY.css";
+import "../Components/Sports/Sport-2/S2.css";
+import "../Components/Sports/Sports-Footer/SF.css";
+
+import "../Components/SM/SM-Nav/SMNav.css";
+import "../Components/SM/SM-Hedder/SMHedder.scss";
+import "../Components/SM/SM-Cat/SMCat.scss";
+import "../Components/SM/SM-PP/SMPP.scss";
+import "../Components/SM/SM-F/SMF.scss";
+import "../Components/SM/SMS/SMS.scss";
+import "../Components/SM/SM-Adds/Sa.scss";
+import "../Components/SM/SW/SW.scss";
+import "../Components/SM/SM-BS/SMBS.scss";
+import "../Components/SM/SM-Footer/SMFooter.scss";
+
+import "../Components/Watch/Watch-Nav/Wnav.scss";
+import "../Components/Watch/Watch-Hedder/Wh.scss";
+import "../Components/Watch/WFC/WFC.scss";
+import "../Components/Watch/WatchBW/WBW.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

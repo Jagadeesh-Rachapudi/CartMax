@@ -45,28 +45,28 @@ function FLamp() {
   return (
     <div className="FLamp-Body">
       <div className="FLamp-1">
-        <div className="FLamp-Option1" onClick={onClickHandler}>
+        <div className="FLamp-Option1 FLamp-Hide1" onClick={onClickHandler}>
           <TbLamp2 className="FLamp-Icon" size={40} />
           <div className="FLamp-Option1-Text">
             <div className="FLamp-Option1-Text-title">LAMP</div>
             <div className="FLamp-Option1-Text-Count">9 Products</div>
           </div>
         </div>
-        <div className="FLamp-Option1">
+        <div className="FLamp-Option1 FLamp-Hide2 ">
           <TbSofa className="FLamp-Icon" size={40} />
           <div className="FLamp-Option1-Text">
             <div className="FLamp-Option1-Text-title">SOFA</div>
             <div className="FLamp-Option1-Text-Count">9 Products</div>
           </div>
         </div>
-        <div className="FLamp-Option1">
+        <div className="FLamp-Option1 FLamp-Hide3 ">
           <GiTable className="FLamp-Icon" size={40} />
           <div className="FLamp-Option1-Text">
             <div className="FLamp-Option1-Text-title">TABLE</div>
             <div className="FLamp-Option1-Text-Count">9 Products</div>
           </div>
         </div>
-        <div className="FLamp-Option1">
+        <div className="FLamp-Option1 FLamp-Hide4 ">
           <BiBed className="FLamp-Icon" size={40} />
           <div className="FLamp-Option1-Text">
             <div className="FLamp-Option1-Text-title">BED</div>

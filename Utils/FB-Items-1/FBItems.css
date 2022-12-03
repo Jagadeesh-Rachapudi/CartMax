@@ -1,10 +1,11 @@
 .FBItems-Image-Conatiner,
 .FBItems-Image {
   position: relative;
+  z-index: +2;
 }
 .FBItems-Tag {
   position: absolute;
-  z-index: +1;
+  z-index: +3;
   margin-top: -18rem;
   margin-left: 0.5rem;
   background-color: #f76954;
@@ -31,4 +32,81 @@
   font-size: 16px;
   line-height: 23px;
   color: #272727;
+}
+.FBItems1-WhishList {
+  position: absolute;
+  z-index: +1;
+  height: 2rem;
+  width: 250px;
+  background-color: #928787;
+  margin-left: -15.63rem;
+  margin-top: 14.7rem;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 19px;
+  color: #373737;
+}
+.FBItems1-Cart {
+  position: absolute;
+  z-index: +1;
+  height: 2rem;
+  width: 250px;
+  background-color: #f76954;
+  margin-left: -15.63rem;
+  margin-top: 16.7rem;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.FBItems1-Cart-Text {
+  margin-left: 25%;
+  margin-top: 0.4rem;
+}
+.FBItems1-Whish-Text {
+  margin-left: 29%;
+  margin-top: 0.4rem;
+}
+.FBItems-Image:hover {
+  opacity: 0.1;
+}
+.FBItems-Titles-Colors {
+  display: flex;
+  justify-content: space-between;
+}
+.FBItems-Colors {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+.FBItems-Color1 {
+  margin-top: 1.5rem;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #0aa6df;
+}
+.FBItems-Color2 {
+  margin-top: 1.5rem;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #fcb68c;
+}
+.FBItems-Color3 {
+  margin-top: 1.5rem;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #95d9d4;
+}
+.FBItems-Color4 {
+  margin-top: 1.5rem;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #020e0d;
+}
+.FBItems-Hide {
+  display: none;
 }

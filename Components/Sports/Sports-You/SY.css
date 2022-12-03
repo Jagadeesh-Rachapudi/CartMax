@@ -1,0 +1,153 @@
+.SY-Intro {
+  margin-top: 5rem;
+}
+.SY-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49.211px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  color: #141412;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.SY-part1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.SY-part2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 5rem;
+}
+.SY1-Img {
+  float: right;
+}
+.SY2-Img {
+  float: left;
+  margin-left: 1rem;
+  margin-top: -2rem;
+}
+.SY1-content-Container {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.SY2-content-Container {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.SY1-Date {
+  font-family: "Jost";
+  font-size: 13px;
+  line-height: 15px;
+  color: #cccccc;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.SY1-Date > b {
+  color: #0b0606;
+}
+.SY1-Hedding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  width: 27rem;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+}
+.SY1-Content {
+  margin-top: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 27rem;
+  color: #a1a1a1;
+}
+.SY1-Button {
+  margin-top: 1rem;
+  border: none;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-family: "Jost";
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #fe6066 0%, #e0c05b 100%);
+  border-radius: 25px 25px 25px 25px;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 1029px) {
+  .SY-part1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .SY1-Img {
+    float: none;
+  }
+  .SY1-Img-Conatiner {
+    display: flex;
+    justify-content: center;
+  }
+  .SY1-content-Container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SY1-Button-Container {
+    display: flex;
+    justify-content: center;
+  }
+  .SY2-Img {
+    float: left;
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+  .SY2-content-Container {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SY-part2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 500px) {
+  .SY1-Img {
+    height: 395px;
+    width: 370px;
+  }
+  .SY2-Img {
+    height: 395px;
+    width: 370px;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 437px) {
+  .SY-Hedding {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .SY1-content-Container {
+    max-width: 80%;
+  }
+  .SY2-content-Container {
+    max-width: 80%;
+  }
+  .SY1-Hedding {
+    width: 20rem;
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
