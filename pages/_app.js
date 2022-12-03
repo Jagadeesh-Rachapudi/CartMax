@@ -88,6 +88,7 @@ import "../Components/Watch/Watch-Nav/Wnav.scss";
 import "../Components/Watch/Watch-Hedder/Wh.scss";
 import "../Components/Watch/WFC/WFC.scss";
 import "../Components/Watch/WatchBW/WBW.scss";
+import "../Components/Watch/WS/WS.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

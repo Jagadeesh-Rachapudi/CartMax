@@ -1,0 +1,58 @@
+.WS-Body {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  .tag {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #b38068;
+  }
+  .heddings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    .hedding {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 58px;
+      color: #252525;
+      @media screen and (max-width: 533px) {
+        font-size: 22px;
+        line-height: 29px;
+      }
+    }
+    .h-button {
+      width: fit-content;
+      border: 2px solid rgb(234, 230, 230);
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+      border-radius: 20px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11.889px;
+      line-height: 14px;
+      color: #252525;
+    }
+  }
+  .Container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    @media screen and (max-width: 743px) {
+      justify-content: unset;
+    }
+  }
+}
