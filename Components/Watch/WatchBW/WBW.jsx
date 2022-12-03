@@ -3,7 +3,12 @@ import React from "react";
 function WBW() {
   return (
     <div className="WBW-Body">
-      <div className="black"></div>
+      <div className="black">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/Watch%2Fw3.png?alt=media&token=43ebb169-b709-4141-8a52-9d7fb7983d29"
+          className="img"
+        />
+      </div>
       <div className="white">
         <div className="Container">
           <div className="tag">Sale 30%</div>
@@ -11,7 +16,7 @@ function WBW() {
           <div className="title">
             Fossil Explorist <br /> Men's Watch
           </div>
-          <div className="pirces">
+          <div className="prices">
             <div className="price1">£50,000</div>
             <div className="price2">£80,000</div>
           </div>
@@ -20,7 +25,7 @@ function WBW() {
             eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur
             adipisicing
           </div>
-          <div className="color-hedding"></div>
+          <div className="color-hedding">Color</div>
           <div className="colors">
             <div className="color1"></div>
             <div className="color2"></div>
