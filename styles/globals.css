@@ -2,7 +2,10 @@
 .body {
   overflow: hidden;
 }
-.Pages{
+.Pages {
   display: flex;
   flex-direction: column;
+}
+#__next {
+  overflow: hidden !important;
 }

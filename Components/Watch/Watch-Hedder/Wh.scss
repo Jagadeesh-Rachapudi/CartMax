@@ -1,0 +1,99 @@
+.Wh-Body {
+  height: fit-content;
+  background-color: #161d25;
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    @media screen and (max-width: 778px) {
+      grid-template-columns: 100%;
+    }
+
+    .p1 {
+      position: relative;
+      background-color: #f6f7fb;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .hedding {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 110px;
+        line-height: 100px;
+        text-align: center;
+        color: #1b1818;
+        @media screen and (max-width: 856px) {
+          font-size: 50px;
+          line-height: 50px;
+        }
+      }
+      .tag {
+        margin-top: 1rem;
+        font-family: "Jost";
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        color: #1b1818;
+        text-align: center;
+      }
+      .content {
+        margin-top: 1rem;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        width: 25rem;
+        display: flex;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #373737;
+        @media screen and (max-width: 856px) {
+          width: 17rem;
+        }
+      }
+      .Button {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        background-color: #b38068;
+        padding: 0.4rem 1rem 0.4rem 1rem;
+        border-radius: 20px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12.918px;
+        line-height: 15px;
+        color: #ffffff;
+      }
+      .img {
+        position: absolute;
+        z-index: +1;
+        margin-left: 86%;
+        @media screen and (max-width: 856px) {
+          margin-left: 110%;
+        }
+        @media screen and (max-width: 778px) {
+          display: none;
+        }
+      }
+    }
+    .p2 {
+      background-color: #bfbfbf;
+      @media screen and (max-width: 856px) {
+        background-color: #f6f7fb;
+      }
+      @media screen and (max-width: 778px) {
+        display: none;
+      }
+    }
+  }
+}

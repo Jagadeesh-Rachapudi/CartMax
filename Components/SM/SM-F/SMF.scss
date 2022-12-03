@@ -1,0 +1,102 @@
+.SMF-Body {
+  height: fit-content;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 420px) {
+    width: 95%;
+  }
+  .adds-and-content {
+    display: grid;
+    grid-template-columns: 79% 19%;
+    column-gap: 2%;
+    @media screen and (max-width: 1068px) {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  }
+  .p2 {
+    .img {
+      margin-top: 9rem;
+    }
+    @media screen and (max-width: 1068px) {
+      display: none;
+    }
+  }
+  .p1 {
+    .tag {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      border: 2px solid #0170dc;
+      width: fit-content;
+      padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+      color: #0170dc;
+      border-radius: 20px;
+    }
+    .Title-Conatiner {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-right: 2rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .Title {
+        font-family: "Jost";
+        font-size: 35px;
+        line-height: 41px;
+        letter-spacing: -0.01em;
+        color: #333e48;
+        @media screen and (max-width: 534px) {
+          font-size: 25px;
+          line-height: 41px;
+        }
+      }
+      .View {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        text-decoration-line: underline;
+        color: #0170dc;
+        margin-top: 0.5rem;
+      }
+    }
+    .Container::-webkit-scrollbar {
+      display: none;
+    }
+    .Container {
+      display: flex;
+      flex-direction: row;
+      column-gap: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+      overflow-x: scroll;
+      @media screen and (max-width: 1068px) {
+        justify-content: center;
+      }
+      @media screen and (max-width: 967px) {
+        justify-content: unset;
+      }
+    }
+  }
+  .adds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .add2 {
+      @media screen and (max-width: 990px) {
+        display: none;
+      }
+    }
+    .add1 {
+      @media screen and (max-width: 750px) {
+        display: none;
+      }
+    }
+  }
+}

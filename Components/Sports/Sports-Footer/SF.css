@@ -1,0 +1,76 @@
+.SF-Body {
+  background-color: #111111;
+  height: fit-content;
+}
+.SF-Parts {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 32% 37% 27%;
+  column-gap: 2rem;
+}
+.SF-Logo-Conatiner {
+  margin-top: 5rem;
+}
+.SF-Content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 20rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: #959595;
+}
+.SF-Scoials {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+.SF-Hedding {
+  margin-top: 7rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.SF-Icon-Addr-Container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  margin-top: 1rem;
+}
+.SF-Addr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 45px;
+  color: #a1a1a1;
+}
+.SF-Icon {
+  margin-top: 0.7rem;
+}
+.SF-Image1 {
+  border-radius: 50%;
+}
+.SF-Floor1 {
+  margin-top: 2rem;
+  margin-left: -2rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 955px) {
+  .SF-Parts {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}

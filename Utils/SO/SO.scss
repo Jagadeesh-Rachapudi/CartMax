@@ -1,0 +1,52 @@
+.SO-Body {
+  display: flex;
+  flex-direction: row;
+  .img {
+    padding: 1rem;
+  }
+  .P2 {
+    .SO-tag {
+      margin-top: 1rem;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13.4px;
+      line-height: 16px;
+      color: #0170dc;
+      margin-bottom: 0.5rem;
+    }
+    .SO-title {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 29px;
+      letter-spacing: -0.01em;
+      color: #333e48;
+    }
+    .stars-Count {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      column-gap: 1rem;
+      .Count {
+        margin-top: 0.3rem;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+        color: #a0a0a0;
+      }
+    }
+    .price {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17.867px;
+      line-height: 26px;
+      color: #006fdc;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.FLatest-Body {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.FLatest-Intro {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f76954;
+}
+.FLatest-Options-Hedding-Container {
+  display: flex;
+  justify-content: space-between;
+}
+.FLatest-Hedding {
+  width: 20rem;
+  margin-top: 0.5rem;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 1rem;
+}
+.FLatest-Options {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+.FLatest-Option {
+  font-family: "Jost";
+  font-size: 18px;
+  line-height: 21px;
+  color: #171515;
+}
+.FLatest-Option-Active {
+  color: #f76954;
+}
+.FLatest-Items {
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 885px) {
+  .FLatest-Hide3 {
+    display: none;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 683px) {
+  .FLatest-Options-Hedding-Container {
+    display: flex;
+    flex-direction: column;
+  }
+  .FLatest-Intro {
+    text-align: center;
+  }
+  .FLatest-Hedding {
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FLatest-Options {
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* ===================(MEDUIM DEVICES)================== */
+@media screen and (max-width: 683px) {
+  .FLatest-Hide2 {
+    display: none;
+  }
+  .FLatest-Items {
+    justify-content: center;
+  }
+}
