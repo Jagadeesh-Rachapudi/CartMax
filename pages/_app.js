@@ -13,6 +13,7 @@ import "../Utils/Shoes/Shoes.css";
 import "../Utils/SuperMarket/SM.scss";
 import "../Utils/SO/SO.scss";
 import "../Utils/Week/Week.scss";
+import "../Utils/WatchProduct/WatchProduct.scss";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -82,6 +83,11 @@ import "../Components/SM/SM-Adds/Sa.scss";
 import "../Components/SM/SW/SW.scss";
 import "../Components/SM/SM-BS/SMBS.scss";
 import "../Components/SM/SM-Footer/SMFooter.scss";
+
+import "../Components/Watch/Watch-Nav/Wnav.scss";
+import "../Components/Watch/Watch-Hedder/Wh.scss";
+import "../Components/Watch/WFC/WFC.scss";
+import "../Components/Watch/WatchBW/WBW.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
