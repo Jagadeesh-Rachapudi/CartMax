@@ -1,0 +1,151 @@
+.WatchC-body {
+  margin-top: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  .tag {
+    margin-top: 1rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #b38068;
+    text-align: center;
+  }
+  .title {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #252525;
+    @media screen and (max-width: 543px) {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    @media screen and (max-width: 404px) {
+      font-size: 25px;
+      line-height: 25px;
+    }
+  }
+  .Container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    @media screen and (max-width: 913px) {
+      grid-template-columns: 100%;
+    }
+    .p2 {
+      background-color: black;
+      @media screen and (max-width: 913px) {
+        display: none;
+      }
+    }
+    .p1 {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      background-color: #f6f6f6;
+      .hedding {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 50px;
+        color: #191919;
+        text-align: center;
+      }
+      .date {
+        text-align: center;
+        font-family: "Jost";
+        font-size: 15.367px;
+        line-height: 18px;
+        color: #a3a4a4;
+      }
+      .Content {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #555555;
+        text-align: center;
+      }
+      .Button {
+        background-color: #b38068;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 25px;
+        padding: 1rem;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13.874px;
+        line-height: 16px;
+        color: #ffffff;
+        width: fit-content;
+        margin-left: 30%;
+      }
+    }
+  }
+  .Container2 {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    @media screen and (max-width: 913px) {
+      grid-template-columns: 100%;
+    }
+    .p2 {
+      background-color: black;
+      @media screen and (max-width: 913px) {
+        display: none;
+      }
+    }
+    .p1 {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      background-color: #f6f6f6;
+      .hedding {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 50px;
+        color: #191919;
+        text-align: center;
+      }
+      .date {
+        text-align: center;
+        font-family: "Jost";
+        font-size: 15.367px;
+        line-height: 18px;
+        color: #a3a4a4;
+      }
+      .Content {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #555555;
+        text-align: center;
+      }
+      .Button {
+        background-color: #b38068;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 25px;
+        padding: 1rem;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13.874px;
+        line-height: 16px;
+        color: #ffffff;
+        width: fit-content;
+        margin-left: 30%;
+      }
+    }
+  }
+}

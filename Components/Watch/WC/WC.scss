@@ -1,0 +1,41 @@
+.WC-Body {
+  margin-top: 2rem;
+  .tag {
+    margin-top: 1rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #b38068;
+    text-align: center;
+  }
+  .title {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #252525;
+    @media screen and (max-width: 460px) {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  .container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: center;
+    overflow-x: scroll;
+    @media screen and (max-width: 770px) {
+      justify-content: unset;
+    }
+  }
+}

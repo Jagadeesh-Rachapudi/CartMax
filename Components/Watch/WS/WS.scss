@@ -46,6 +46,9 @@
       color: #252525;
     }
   }
+  .Container::-webkit-scrollbar {
+    display: none;
+  }
   .Container {
     margin-top: 1rem;
     display: flex;
