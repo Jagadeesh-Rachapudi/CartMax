@@ -7,6 +7,7 @@ import WBW from "../Components/Watch/WatchBW/WBW";
 import WB from "../Components/Watch/WB/WB";
 import WC from "../Components/Watch/WC/WC";
 import WFC from "../Components/Watch/WFC/WFC";
+import WFooter from "../Components/Watch/WFooter/WFooter";
 import WS from "../Components/Watch/WS/WS";
 import WT from "../Components/Watch/WT/WT";
 
@@ -23,6 +24,7 @@ function Watch() {
       <WC />
       <WatchC />
       <W9 />
+      <WFooter />
     </div>
   );
 }

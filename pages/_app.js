@@ -94,6 +94,7 @@ import "../Components/Watch/WT/WT.scss";
 import "../Components/Watch/WC/WC.scss";
 import "../Components/Watch/Watch-Cards/WatchC.scss";
 import "../Components/Watch/W9/W9.scss";
+import "../Components/Watch/WFooter/Wfooter.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
