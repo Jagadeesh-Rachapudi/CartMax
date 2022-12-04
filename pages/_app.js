@@ -107,6 +107,11 @@ import "../Components/WatchDark/D5/D5.scss";
 import "../Components/FaMini/F1/F1.scss";
 import "../Components/FaMini/F2/F2.scss";
 
+import "../Components/Fmini/FM1/FM1.scss";
+import "../Components/Fmini/FM2/FM2.scss";
+import "../Components/Fmini/FM3/FM3.scss";
+import "../Components/Fmini/FM4/FM4.scss";
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
