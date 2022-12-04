@@ -15,7 +15,7 @@ function About2() {
       <A11 />
       <FAD />
       <A21 />
-      <AE />
+      <AE />   
       <A22 />
       <A13 />
       <FFooter />

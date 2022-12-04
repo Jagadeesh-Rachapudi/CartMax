@@ -1,16 +1,17 @@
-.top-Body {
-  .AboutUs {
+.A31top-Body {
+  background-color: #4f4f4f;
+  .A31AboutUs {
     font-family: "Jost";
     font-style: normal;
     font-weight: 700;
     font-size: 59.907px;
     line-height: 87px;
     letter-spacing: -0.02em;
-    color: #1d1d1d;
+    color: #ffffff;
     text-align: center;
     padding-top: 10rem;
   }
-  .sub-Titles {
+  .A31sub-Titles {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,14 +22,14 @@
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.03em;
-    color: #7c7c7c;
+    color: #ffffff;
     padding-bottom: 10rem;
-    .SubActive {
+    .A31SubActive {
       color: #d9121f;
     }
   }
 
-  .A11-Body {
+  .A31-Body {
     .FA-Navbarcontainer {
       display: flex;
       width: 100%;

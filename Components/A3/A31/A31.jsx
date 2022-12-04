@@ -1,13 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
 import { BsSearch, BsHandbag } from "react-icons/bs";
 import { AiOutlineUser, AiOutlineHeart } from "react-icons/ai";
-function A11() {
+function A31() {
   return (
-    <div className="top-Body">
-      <div className="A11-Body">
+    <div className="A31top-Body">
+      <div className="A31-Body">
         <div className="FA-Navbarcontainer">
           <div className="FA-Icons">
             <button className="FA-Icon FA-SearchIcon">
@@ -67,9 +66,9 @@ function A11() {
           </Navbar>
         </div>
       </div>
-      <div className="AboutUs">AboutUS</div>
-      <div className="sub-Titles">
-        <div className="SubActive">Home</div>
+      <div className="A31AboutUs">Show Page</div>
+      <div className="A31sub-Titles">
+        <div className="A31SubActive">Home</div>
         <div>Shop</div>
         <div>SLhop-Lits</div>
       </div>
@@ -77,4 +76,4 @@ function A11() {
   );
 }
 
-export default A11;
+export default A31;
