@@ -90,11 +90,6 @@ import "../Components/Watch/Watch-Nav/Wnav.scss";
 import "../Components/Watch/Watch-Hedder/Wh.scss";
 import "../Components/Watch/WFC/WFC.scss";
 import "../Components/Watch/WatchBW/WBW.scss";
-//Shoes Page
-import "../Components/Shoes/SlideShow/slide_show.scss";
-import "../Components/Shoes/ClientsBanner/client_banner.scss";
-import "../Components/Shoes/CategeoryListing/categeory_listing.scss";
-import "../Components/Shoes/ProductTimer/product_timer.scss";
 import "../Components/Watch/WS/WS.scss";
 import "../Components/Watch/WB/WB.scss";
 import "../Components/Watch/WT/WT.scss";
@@ -102,6 +97,13 @@ import "../Components/Watch/WC/WC.scss";
 import "../Components/Watch/Watch-Cards/WatchC.scss";
 import "../Components/Watch/W9/W9.scss";
 import "../Components/Watch/WFooter/Wfooter.scss";
+
+//Shoes Page
+import "../Components/Shoes/SlideShow/slide_show.scss";
+import "../Components/Shoes/ClientsBanner/client_banner.scss";
+import "../Components/Shoes/CategeoryListing/categeory_listing.scss";
+import "../Components/Shoes/ProductTimer/product_timer.scss";
+import "../Components/Shoes/ShoesNav/ShoesNav.scss";
 
 import "../Components/WatchDark/DNav/DNav.scss";
 import "../Components/WatchDark/DHedder/DHedder.scss";

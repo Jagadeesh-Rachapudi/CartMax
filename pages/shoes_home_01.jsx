@@ -8,13 +8,21 @@ import CategeoryListingData from "../Components/Shoes/CategeoryListing/categeory
 import ProductTimer from "../Components/Shoes/ProductTimer/productTimer";
 import ProductTimerData from "../Components/Shoes/ProductTimer/productTimerData.json";
 import EBSales from "../Components/E/E-BSales/EBSales";
+import S2 from "../Components/Sports/Sport-2/S2";
+import SF from "../Components/Sports/Sports-Footer/SF";
+import SNav from "../Components/Sports/Sports-Nav/SNav";
+import ShoesNav from "../Components/Shoes/ShoesNav/ShoesNav";
+
 function shoes_home_01() {
   return (
     <Fragment>
+      <ShoesNav />
       <Slideshow data={SlideShowData}></Slideshow>
       <ClientsBanner data={ClientsBannerData} />
       <CategeoryListing data={CategeoryListingData} />
       <ProductTimer data={ProductTimerData} />
+      <S2 />
+      <SF />
     </Fragment>
   );
 }

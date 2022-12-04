@@ -12,7 +12,7 @@ function Sports() {
     <div>
       <SNav />
       <SAds />
-      <SP />
+      <SP />   
       <SB />
       <SY />
       <S2 />
