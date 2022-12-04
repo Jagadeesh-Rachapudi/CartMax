@@ -8,7 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function DNav() {
   return (
-    <div className='DNav-body' >
+    <div className="DNav-body">
       <div className="container">
         <div className="p1">
           <img
@@ -25,22 +25,22 @@ function DNav() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="#1" className="Link">
+                  <Nav.Link href="/F" className="Link">
                     HOME
                   </Nav.Link>
-                  <Nav.Link href="#2" className="Link">
+                  <Nav.Link href="/FA" className="Link">
                     PRODUCTS
                   </Nav.Link>
-                  <Nav.Link href="#3" className="Link">
+                  <Nav.Link href="/E" className="Link">
                     SHOP
                   </Nav.Link>
-                  <Nav.Link href="#4" className="Link">
+                  <Nav.Link href="*HF" className="Link">
                     BLOG
                   </Nav.Link>
-                  <Nav.Link href="#5" className="Link">
+                  <Nav.Link href="/Watch" className="Link">
                     PAGES
                   </Nav.Link>
-                  <Nav.Link href="#6" className="Link">
+                  <Nav.Link href="/shoes_home_01" className="Link">
                     CONTACT
                   </Nav.Link>
                 </Nav>
@@ -56,7 +56,7 @@ function DNav() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default DNav  
+export default DNav;

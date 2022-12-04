@@ -14,7 +14,7 @@ function NavBar() {
       <div className="Icons">
         <button className="Icon SearchIcon">
           <BsSearch />
-        </button>  
+        </button>
         <div className="Icon">
           <AiOutlineUser />
         </div>
@@ -42,12 +42,12 @@ function NavBar() {
                 style={{ maxHeight: "1000px" }}
                 navbarScroll
               >
-                <Nav.Link href="#Home">Home</Nav.Link>
-                <Nav.Link href="#Promotions">Promotions</Nav.Link>
-                <Nav.Link href="#Shop">Shop</Nav.Link>
-                <Nav.Link href="#Product">Product</Nav.Link>
-                <Nav.Link href="#Blog">Blog</Nav.Link>
-                <Nav.Link href="#Pages">Pages</Nav.Link>
+                <Nav.Link href="/HF">Home</Nav.Link>
+                <Nav.Link href="/E">Promotions</Nav.Link>
+                <Nav.Link href="/F">Shop</Nav.Link>
+                <Nav.Link href="/FA">Product</Nav.Link>
+                <Nav.Link href="/shoes_home_01">Blog</Nav.Link>
+                <Nav.Link href="/Watch">Pages </Nav.Link>
               </Nav>
             </div>
           </Navbar.Collapse>

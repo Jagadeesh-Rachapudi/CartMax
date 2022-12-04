@@ -30,7 +30,7 @@ function ENavBar() {
                   style={{ maxHeight: "1000px" }}
                   navbarScroll
                 >
-                  <Nav.Link href="#Home" className="E-Nav-Links">
+                  <Nav.Link href="/HF" className="E-Nav-Links">
                     Home
                   </Nav.Link>
                   <NavDropdown
@@ -38,9 +38,7 @@ function ENavBar() {
                     id="basic-nav-dropdown"
                     className="E-Nav-Links"
                   >
-                    <NavDropdown.Item href="#action/3.1">
-                      About US
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/E">About US</NavDropdown.Item>
                   </NavDropdown>
 
                   <NavDropdown
@@ -48,21 +46,19 @@ function ENavBar() {
                     id="basic-nav-dropdown"
                     className="E-Nav-Links"
                   >
-                    <NavDropdown.Item href="#action/3.1">Blog</NavDropdown.Item>
+                    <NavDropdown.Item href="/F">Blog</NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown
                     title="Pages"
                     id="basic-nav-dropdown"
                     className="E-Nav-Links"
                   >
-                    <NavDropdown.Item href="#action/3.1">
-                      Pages
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/FA">Pages</NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#Features" className="E-Nav-Links">
+                  <Nav.Link href="/shoes_home_01" className="E-Nav-Links">
                     Features
                   </Nav.Link>
-                  <Nav.Link href="#Contactus" className="E-Nav-Links">
+                  <Nav.Link href="/Watch" className="E-Nav-Links">
                     ContactUs
                   </Nav.Link>
                 </Nav>

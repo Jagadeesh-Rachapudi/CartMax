@@ -124,7 +124,7 @@ function SMNAv() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="#home" className="SMNav-Nav-Link">
+                  <Nav.Link href="/HF" className="SMNav-Nav-Link">
                     Home
                   </Nav.Link>
                   <NavDropdown
@@ -132,7 +132,7 @@ function SMNAv() {
                     id="basic-nav-dropdown"
                     className="SMNav-Nav-Link"
                   >
-                    <NavDropdown.Item className="SMNav-Nav-Link2" href="#">
+                    <NavDropdown.Item className="SMNav-Nav-Link2" href="/E">
                       About Us
                     </NavDropdown.Item>
                   </NavDropdown>
@@ -141,7 +141,7 @@ function SMNAv() {
                     id="basic-nav-dropdown"
                     className="SMNav-Nav-Link"
                   >
-                    <NavDropdown.Item className="SMNav-Nav-Link2" href="#">
+                    <NavDropdown.Item className="SMNav-Nav-Link2" href="/F">
                       Blog
                     </NavDropdown.Item>
                   </NavDropdown>
@@ -150,14 +150,14 @@ function SMNAv() {
                     id="basic-nav-dropdown"
                     className="SMNav-Nav-Link"
                   >
-                    <NavDropdown.Item className="SMNav-Nav-Link2" href="#">
+                    <NavDropdown.Item className="SMNav-Nav-Link2" href="/FA">
                       Pages
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#1" className="SMNav-Nav-Link">
+                  <Nav.Link href="/shoes_home_01" className="SMNav-Nav-Link">
                     Features
                   </Nav.Link>
-                  <Nav.Link href="#2" className="SMNav-Nav-Link">
+                  <Nav.Link href="/Watch" className="SMNav-Nav-Link">
                     Ccontact Us
                   </Nav.Link>
                 </Nav>
