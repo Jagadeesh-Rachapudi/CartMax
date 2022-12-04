@@ -122,6 +122,10 @@ import "../Components/A2/A22/A22.scss";
 import "../Components/A3/A31/A31.scss";
 import "../Components/A3/A32/A32.scss";
 
+import "../Components/A4/A41/A41.scss";
+import "../Components/A4/A42/A42.scss";
+import "../Components/A4/A43/A43.scss";
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }

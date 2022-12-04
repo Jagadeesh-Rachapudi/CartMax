@@ -1,0 +1,69 @@
+.A42-Body {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  .Conatiner {
+    background-color: #313131;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .tag {
+      margin-left: 5rem;
+      margin-top: 0.7rem;
+      margin-bottom: 0.7rem;
+      width: fit-content;
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #ffffff;
+    }
+    .title {
+      margin-left: 5rem;
+
+      margin-top: 0.7rem;
+      margin-bottom: 0.7rem;
+      width: fit-content;
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 40px;
+      color: #ffffff;
+    }
+    .Content {
+      margin-left: 5rem;
+
+      margin-top: 0.7rem;
+      margin-bottom: 0.7rem;
+      width: fit-content;
+      width: 20rem;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+    .Button {
+      margin-top: 0.7rem;
+      margin-left: 5rem;
+      margin-bottom: 0.7rem;
+      width: fit-content;
+      border: none;
+      background-color: #d9121f;
+      padding: 0.5rem;
+      border-radius: 5px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12.918px;
+      line-height: 19px;
+      color: #ffffff;
+    }
+  }
+}
