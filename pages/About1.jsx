@@ -5,10 +5,12 @@ import A13 from "../Components/A1/A13/A13";
 import FAD from "../Components/FA/FA-D/FAD";
 import AE from "../Components/HF/HF-AE/AE";
 import FFooter from "../Components/F/FFooter/FFooter";
+import FATopRibbon from "../Components/FA/FA-Top-Ribbon/FATopRibbon";
 
 function About1() {
   return (
     <div>
+      <FATopRibbon />
       <A11 />
       <FAD />
       <AE />
