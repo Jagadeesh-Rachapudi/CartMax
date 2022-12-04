@@ -112,6 +112,10 @@ import "../Components/Fmini/FM2/FM2.scss";
 import "../Components/Fmini/FM3/FM3.scss";
 import "../Components/Fmini/FM4/FM4.scss";
 
+import "../Components/A1/A11/A11.scss";
+import "../Components/A1/A12/A12.scss";
+import "../Components/A1/A13/A13.scss";
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
