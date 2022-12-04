@@ -2,27 +2,22 @@ import React from "react";
 import Image from "next/image";
 import Slider from "react-slick";
 import Jsondata from "./slideShowData.json";
-import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const settings = {
   slidesToShow: 1,
   infinite: true,
-  dots: true,
+  dots: false,
   speed: 500,
-  autoplaySpeed: 2000,
+
   slidesToScroll: 1,
   adaptiveHeight: true,
 
-  prevArrow: <BsChevronRight />,
-  nextArrow: <BsChevronLeft />,
+  prevArrow: <FaChevronLeft />,
+  nextArrow: <FaChevronRight />,
 };
-const data = Jsondata;
+
 const Slideshow = (props) => {
-  {
-    Object.values(data).map((image) =>
-      !image.src ? console.log(image) : console.log("hi")
-    );
-  }
   return (
     <div className="slide-show">
       <Slider {...settings} autoplay={true}>

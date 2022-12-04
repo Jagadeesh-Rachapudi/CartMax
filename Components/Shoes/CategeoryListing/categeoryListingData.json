@@ -1,0 +1,33 @@
+{
+  "heading": "<p style=\"text-align:center\">JACKET AND COATS</p> <p style=\"text-align:center\"><span style=\"font-size:24px\">Our Categeories</span></p>",
+  "categeories": [
+    {
+      "categeoryTitle": "Nike Just Do it",
+      "featureImage": {
+        "src": "https://ik.imagekit.io/op6maelsy/CartMax/shoes",
+        "alt": "Slide-show"
+      }
+    },
+    {
+      "categeoryTitle": "Adidas Shoes",
+      "featureImage": {
+        "src": "https://ik.imagekit.io/op6maelsy/CartMax/shoes",
+        "alt": "Slide-show"
+      }
+    },
+    {
+      "categeoryTitle": "Sports Brands",
+      "featureImage": {
+        "src": "https://ik.imagekit.io/op6maelsy/CartMax/shoes",
+        "alt": "Slide-show"
+      }
+    },
+    {
+      "categeoryTitle": "ADV Shoes",
+      "featureImage": {
+        "src": "https://ik.imagekit.io/op6maelsy/CartMax/shoes",
+        "alt": "Slide-show"
+      }
+    }
+  ]
+}

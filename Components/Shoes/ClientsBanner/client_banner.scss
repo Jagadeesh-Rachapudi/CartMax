@@ -1,0 +1,26 @@
+.client-banner {
+  width: 95%;
+  background-color: #f5f1e9;
+  margin: auto;
+  border-radius: 100px;
+  .content {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem 0;
+  }
+  .logos {
+    width: 80%;
+    margin: auto;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: space-between;
+    img {
+      margin: 0 20px;
+    }
+  }
+}
+.slide-show + .client-banner {
+  margin-top: -80px !important;
+  z-index: 2;
+}

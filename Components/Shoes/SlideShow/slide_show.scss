@@ -1,0 +1,21 @@
+.slide-show {
+  .slick-slider.slick-initialized {
+    .slick-prev,
+    .slick-next {
+      width: 30px;
+      height: 30px;
+      color: white;
+      z-index: 99;
+    }
+
+    .slick-list {
+      z-index: -1;
+    }
+    .slick-next {
+      right: 10px;
+    }
+    .slick-prev {
+      left: 10px;
+    }
+  }
+}

@@ -88,6 +88,11 @@ import "../Components/Watch/Watch-Nav/Wnav.scss";
 import "../Components/Watch/Watch-Hedder/Wh.scss";
 import "../Components/Watch/WFC/WFC.scss";
 import "../Components/Watch/WatchBW/WBW.scss";
+//Shoes Page
+import "../Components/Shoes/SlideShow/slide_show.scss";
+import "../Components/Shoes/ClientsBanner/client_banner.scss";
+import "../Components/Shoes/CategeoryListing/categeory_listing.scss";
+import "../Components/Shoes/ProductTimer/product_timer.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
