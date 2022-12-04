@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "../styles/globals.css";
+import "../styles/WatchMini.scss";
 
 import "../Utils/Book_It_Now/Book_It_Now.css";
 import "../Utils/Electronic_Cards/ElectronicCards.css";
@@ -14,6 +15,7 @@ import "../Utils/SuperMarket/SM.scss";
 import "../Utils/SO/SO.scss";
 import "../Utils/Week/Week.scss";
 import "../Utils/WatchProduct/WatchProduct.scss";
+import "../Utils/WatchProductDark/WatchProductDark.scss";
 
 import "../Components/HF/HF-TopRibbon/TopRibbon.css";
 import "../Components/HF/HF-NavBar/NavBar.css";
@@ -93,6 +95,43 @@ import "../Components/Shoes/SlideShow/slide_show.scss";
 import "../Components/Shoes/ClientsBanner/client_banner.scss";
 import "../Components/Shoes/CategeoryListing/categeory_listing.scss";
 import "../Components/Shoes/ProductTimer/product_timer.scss";
+import "../Components/Watch/WS/WS.scss";
+import "../Components/Watch/WB/WB.scss";
+import "../Components/Watch/WT/WT.scss";
+import "../Components/Watch/WC/WC.scss";
+import "../Components/Watch/Watch-Cards/WatchC.scss";
+import "../Components/Watch/W9/W9.scss";
+import "../Components/Watch/WFooter/Wfooter.scss";
+
+import "../Components/WatchDark/DNav/DNav.scss";
+import "../Components/WatchDark/DHedder/DHedder.scss";
+import "../Components/WatchDark/D3/D3.scss";
+import "../Components/WatchDark/D4/D4.scss";
+import "../Components/WatchDark/D5/D5.scss";
+
+import "../Components/FaMini/F1/F1.scss";
+import "../Components/FaMini/F2/F2.scss";
+
+import "../Components/Fmini/FM1/FM1.scss";
+import "../Components/Fmini/FM2/FM2.scss";
+import "../Components/Fmini/FM3/FM3.scss";
+import "../Components/Fmini/FM4/FM4.scss";
+
+import "../Components/A1/A11/A11.scss";
+import "../Components/A1/A12/A12.scss";
+import "../Components/A1/A13/A13.scss";
+
+import "../Components/A2/A21/A21.scss";
+import "../Components/A2/A22/A22.scss";
+
+import "../Components/A3/A31/A31.scss";
+import "../Components/A3/A32/A32.scss";
+
+import "../Components/A4/A41/A41.scss";
+import "../Components/A4/A42/A42.scss";
+import "../Components/A4/A43/A43.scss";
+
+import "../Components/A5/A51/A51.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

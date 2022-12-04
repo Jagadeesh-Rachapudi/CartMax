@@ -1,0 +1,104 @@
+.FM1 {
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+}
+.FM1 > img {
+  margin-left: 15%;
+  background-color: transparent;
+}
+.F-Navbar {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+}
+.F-Navlinks {
+  margin-left: 23%;
+  gap: 5rem;
+}
+.F-Navlink {
+  padding-left: 5rem;
+}
+.F-navSearchicon {
+  margin-left: 39%;
+  border: none;
+  background-color: transparent;
+}
+.F-RightIcons {
+  display: flex;
+  flex-direction: row;
+}
+.F-Navrighticon {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+}
+.F-lasticon {
+  margin-right: 15rem;
+}
+.F-Icons {
+  display: none;
+}
+/*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+@media screen and (max-width: 1085px) {
+  .F-Navbarcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .F-Navbar {
+    width: 22%;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .F-NavLogo {
+    padding-top: 0rem;
+    margin: auto;
+  }
+  .F-RightIcons {
+    display: none;
+  }
+  .F-Icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5rem;
+  }
+  .F-SearchIcon {
+    border: none;
+    background-color: transparent;
+  }
+  .F-Icon {
+    padding-left: 1.25rem;
+  }
+}
+/*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+@media screen and (max-width: 576px) {
+  .F-Navbarcontainer > img {
+    margin-left: 0%;
+    background-color: transparent;
+  }
+  .F-NavLogo {
+    max-width: 110px;
+    object-fit: contain;
+  }
+  .F-Icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+  }
+  .F-SearchIcon {
+    border: none;
+    background-color: transparent;
+  }
+  .F-Icon {
+    padding-left: 0.25rem;
+  }
+}

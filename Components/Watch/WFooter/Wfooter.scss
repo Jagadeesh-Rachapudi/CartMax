@@ -1,0 +1,276 @@
+.WFooter-Body {
+  // height: 300vh;
+  background-color: #242424;
+  .Container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    @media screen and (max-width: 1098px) {
+      display: none;
+    }
+    @media screen and (max-width: 667px) {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+    .hedding {
+      font-family: "Jost";
+      font-size: 24px;
+      line-height: 40px;
+      text-decoration-line: underline;
+      color: #ffffff;
+      width: fit-content;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.5rem;
+      .link {
+        margin-left: 0;
+        width: fit-content;
+        font-family: "Jost";
+        font-size: 24px;
+        line-height: 40px;
+        text-decoration-line: none;
+        color: #a1a1a1;
+      }
+      .link:hover {
+        color: #5a5858;
+      }
+    }
+    .p1 {
+      @media screen and (max-width: 667px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      padding-top: 5rem;
+      .Content {
+        margin-top: 1rem;
+        width: 17rem;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #a1a1a1;
+      }
+      .mails {
+        margin-top: 1rem;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 33px;
+        color: #ffffff;
+      }
+      .Scoials {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+      }
+    }
+    .p2,
+    .p3 {
+      @media screen and (max-width: 667px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      margin-top: 6rem;
+      width: fit-content;
+    }
+    .p4 {
+      @media screen and (max-width: 667px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      margin-top: 6rem;
+      .review {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        .box {
+          margin-top: 1rem;
+          height: 7rem;
+          width: 7rem;
+          background-color: black;
+        }
+        .stars {
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+        }
+        .title {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+        }
+        .Wprices {
+          margin-top: 0.5rem;
+          color: #a77319;
+          display: flex;
+          flex-direction: row;
+          column-gap: 0.5rem;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 23px;
+          .Wprice2 {
+            text-decoration-line: line-through;
+            color: #939395;
+          }
+        }
+      }
+    }
+  }
+  .h1 {
+    display: none;
+
+    @media screen and (max-width: 1098px) {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      .hedding {
+        font-family: "Jost";
+        font-size: 24px;
+        line-height: 40px;
+        text-decoration-line: underline;
+        color: #ffffff;
+        width: fit-content;
+      }
+      .p1 {
+        padding-top: 5rem;
+        .Content {
+          margin-top: 1rem;
+          width: 17rem;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #a1a1a1;
+        }
+        .mails {
+          margin-top: 1rem;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 33px;
+          color: #ffffff;
+        }
+        .Scoials {
+          margin-top: 1rem;
+          display: flex;
+          flex-direction: row;
+          column-gap: 1rem;
+        }
+      }
+      .p1,
+      .p4 {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .p4 {
+        margin-top: 6rem;
+        .review {
+          display: flex;
+          flex-direction: row;
+          column-gap: 1rem;
+          .box {
+            margin-top: 1rem;
+            height: 7rem;
+            width: 7rem;
+            background-color: black;
+          }
+          .stars {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+          }
+          .title {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+          }
+          .Wprices {
+            margin-top: 0.5rem;
+            color: #a77319;
+            display: flex;
+            flex-direction: row;
+            column-gap: 0.5rem;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            .Wprice2 {
+              text-decoration-line: line-through;
+              color: #939395;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 667px) {
+      display: none;
+    }
+  }
+  .h2 {
+    display: none;
+    @media screen and (max-width: 1098px) {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      .hedding {
+        font-family: "Jost";
+        font-size: 24px;
+        line-height: 40px;
+        text-decoration-line: underline;
+        color: #ffffff;
+        width: fit-content;
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        .link {
+          margin-left: 0;
+          width: fit-content;
+          font-family: "Jost";
+          font-size: 24px;
+          line-height: 40px;
+          text-decoration-line: none;
+          color: #a1a1a1;
+        }
+        .link:hover {
+          color: #5a5858;
+        }
+      }
+      .p2,
+      .p3 {
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    @media screen and (max-width: 667px) {
+      display: none;
+    }
+  }
+}

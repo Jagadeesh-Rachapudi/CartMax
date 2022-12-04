@@ -1,0 +1,63 @@
+.W9-body {
+  height: 50vh;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .tag {
+    margin-top: 1rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .title {
+    margin-top: 1rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .t2 {
+    color: #b38068;
+  }
+  .discover {
+    margin-top: 1rem;
+    font-family: "Jost";
+    font-size: 19.993px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    text-align: center;
+  }
+  .p1 {
+    background-color: #313131;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media screen and (max-width: 600px) {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }
+  .p2 {
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media screen and (max-width: 600px) {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }
+}

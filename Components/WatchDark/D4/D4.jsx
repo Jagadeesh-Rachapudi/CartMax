@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-function WBW() {
+function D4() {
   return (
-    <div className="WBW-Body">
-      <div className="black">
+    <div className='D4-Body' >
+        <div className="black">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/cartmax-39396.appspot.com/o/Watch%2Fw3.png?alt=media&token=43ebb169-b709-4141-8a52-9d7fb7983d29"
           className="img"
@@ -35,7 +35,7 @@ function WBW() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default WBW;
+export default D4

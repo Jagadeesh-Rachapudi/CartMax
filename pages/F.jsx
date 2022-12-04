@@ -20,7 +20,7 @@ function F() {
       <FItems />
       <FB />
       <FLamp />
-      <FLatest />
+      <FLatest />  
       <FStar />
       <Fint />
       <FAds />

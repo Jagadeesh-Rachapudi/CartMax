@@ -1,0 +1,149 @@
+.top-Body {
+  .AboutUs {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59.907px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    color: #1d1d1d;
+    text-align: center;
+    padding-top: 10rem;
+  }
+  .sub-Titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: #7c7c7c;
+    padding-bottom: 10rem;
+    .SubActive {
+      color: #d9121f;
+    }
+  }
+
+  .A11-Body {
+    .FA-Navbarcontainer {
+      display: flex;
+      width: 100%;
+      //   background-color: #f7f3f4;
+    }
+    .FA-Navbarcontainer > img {
+      margin-left: 15%;
+      //   background-color: #f7f3f4;
+    }
+    .FA-Navbar {
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      width: 100%;
+      background-color: transparent;
+    }
+    .FA-Navlinks {
+      margin-left: 23%;
+      gap: 5rem;
+    }
+    .FA-Navlink {
+      padding-left: 5rem;
+    }
+    .FA-navSearchicon {
+      margin-left: 39%;
+      border: none;
+      background-color: transparent;
+    }
+    .FA-RightIcons {
+      display: flex;
+      flex-direction: row;
+    }
+    .FA-Navrighticon {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 1rem;
+    }
+    .FA-lasticon {
+      margin-right: 15rem;
+    }
+    .FA-Icons {
+      display: none;
+    }
+    /*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+    @media screen and (max-width: 1085px) {
+      .FA-Navbarcontainer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+      .FA-Navbar {
+        width: 22%;
+        padding: 0;
+        margin-right: 0;
+        margin-left: 0;
+      }
+
+      .FA-NavLogo {
+        padding-top: 0rem;
+        margin: auto;
+      }
+      .FA-RightIcons {
+        display: none;
+      }
+      .FA-Icons {
+        display: flex;
+        flex-direction: row;
+        margin-right: 5rem;
+      }
+      .FA-SearchIcon {
+        border: none;
+        background-color: transparent;
+      }
+      .FA-Icon {
+        padding-left: 1.25rem;
+      }
+    }
+
+    /*================== MEDIA QUERIES(MEDIUM DEVICES) ====================*/
+
+    @media screen and (max-width: 860px) {
+      .FA-Navbarcontainer {
+        margin-top: 1.2rem;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+    }
+
+    /*================== MEDIA QUERIES(SMALL DEVICES) ====================*/
+
+    @media screen and (max-width: 576px) {
+      .FA-Navbarcontainer > img {
+        margin-left: 0%;
+        background-color: #f7f3f4;
+      }
+      .FA-NavLogo {
+        max-width: 110px;
+        object-fit: contain;
+      }
+      .FA-Icons {
+        display: flex;
+        flex-direction: row;
+        margin-right: 2rem;
+      }
+      .FA-SearchIcon {
+        border: none;
+        background-color: transparent;
+      }
+      .FA-Icon {
+        padding-left: 0.25rem;
+      }
+    }
+  }
+}

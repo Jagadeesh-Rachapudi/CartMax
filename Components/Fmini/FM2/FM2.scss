@@ -1,0 +1,79 @@
+.FM2-Body {
+  background-color: #ffffff;
+  .container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    .p1 {
+      background-color: #f0feff;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      @media screen and (max-width: 995px) {
+        display: flex;
+        flex-direction: column;
+      }
+      .c1 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        margin-left: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        .tag {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 25px;
+          color: #403f3f;
+        }
+        .title {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          width: fit-content;
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 63.974px;
+          line-height: 60px;
+          letter-spacing: -0.02em;
+          color: #141412;
+        }
+        .content {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          width: 20rem;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: #373737;
+        }
+        .Button {
+          margin-top: 2rem;
+          border: none;
+          padding: 1rem;
+          border-radius: 25px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12.918px;
+          line-height: 15px;
+          color: #ffffff;
+          background-color: #f76954;
+        }
+      }
+      .img-Container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        @media screen and (max-width: 526px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
