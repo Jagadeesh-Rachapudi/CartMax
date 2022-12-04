@@ -1,0 +1,16 @@
+{
+  "content": "<p>SHOES</p> <p><span style=\"font-size:48px\">Nike Air Max 90/1</span><br />Step into a new realm of Air with the Nike Air Max Zephyr. It<br />    brings the soft cushioning of visible of Air with the Nike Air Max<br /> Zephyr. It brings the<br />   <br />    &nbsp;</p>  ",
+  "shopNowBtn": "Explore More",
+  "showTimer": true,
+  "product": {
+    "title": "Nike Air Max Zephyr",
+    "saleText": "SPRING SALE 20% OFF",
+    "productImage": "https://ik.imagekit.io/op6maelsy/CartMax/Image__3_.png",
+    "productColors": [{ "color": "#DE3033" }, { "color": "#242424" }],
+    "productPrice": 89.0,
+    "productSalePrice": 80.0,
+    "currencyCodeSysmbol": "$",
+    "productSize": "Uk 5.5",
+    "addToCartText": "ADD TO CART"
+  }
+}
