@@ -1,0 +1,68 @@
+.A21-Body {
+  height: fit-content;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  .tag {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.721px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #f92950;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 66px;
+    color: #121212;
+    @media screen and (max-width: 641px) {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: center;
+    overflow-x: scroll;
+    @media screen and (max-width: 1128px) {
+      justify-content: unset;
+    }
+    .p1 {
+      width: fit-content;
+    }
+  }
+  .p1-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+  }
+  .p1-Content {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #696969;
+    width: 20rem;
+  }
+}

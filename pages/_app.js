@@ -116,6 +116,9 @@ import "../Components/A1/A11/A11.scss";
 import "../Components/A1/A12/A12.scss";
 import "../Components/A1/A13/A13.scss";
 
+import "../Components/A2/A21/A21.scss";
+import "../Components/A2/A22/A22.scss";
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
